@@ -7,5 +7,18 @@
 }
 body {
     font-family: 'Cormorant Garamond', serif;
-    font-weight: 300;
+    font-weight: 600;
+}
+
+/* logo */
+h1,h2 {  
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    color: black;   
+}
+
+#logo {
+    font-size: 5rem;
+    text-align: center;
+    margin: 50px auto 50px;
 }
