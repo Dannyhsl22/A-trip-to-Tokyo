@@ -121,7 +121,7 @@ transform: scale(1.08);
 
 
   #introduction {
-      height: 600px;
+      height: 100%;
   }
   #city-about {
       width: 75%;
@@ -129,7 +129,7 @@ transform: scale(1.08);
       margin-bottom: 40px;
       text-align: center;
       font-size: large;
-      line-height: 1.6;
+      line-height: 1.8;
 
   }
   #cruise {
@@ -139,43 +139,39 @@ transform: scale(1.08);
       width: 70%;
       padding: 100px;
       position: relative;
-      margin: 0 auto 50px auto;
-        
+      margin: 0 auto 50px auto;      
       border: 3px solid #ff7990;
-
-      
+         
   }
 
-  #getting-around {
-      width: 60%;
-      
-      text-align: center;
-      font-size: large;
-      line-height: 1.6;
-      margin-top: 40px;
-      margin-left: 40px;
-
-  }
-  #midpage {
-  height: 600;
-  }
-
-  #subway {
-      background: url(../images/subwayky.jpg) no-repeat ;
-      height: 300px;
-      width: 300px;
-      padding: 30px;
-      float: right;
-     
-  }
-
-  #customs {
-    width: 60%;
+  #mid-section {
+   height: 1000px;
    
+ }
+ .right-left-headings {
     text-align: center;
     font-size: large;
-    line-height: 1.6;
-    margin-top: 40px;
-    margin-right: 40px;
+    line-height: 1.8;
+    
+ }
+
+ #getting-around {   
+    margin-left: 80px;
+    width: 61%;
+    
+ }
+  #subway {
+     
+   float: right;
+   text-align:right;
+   margin-right: 120px;
+   margin-top: 70px;
+    
+  }
+
+  #customs { 
+    margin-left: 450px;
+    margin-top: 100px;
+    width: 65%;
   }
 
