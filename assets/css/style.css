@@ -33,7 +33,7 @@ header a {
     width: 900px;
     overflow: auto;
     margin-left: 430px;
-    margin-bottom: 20px;
+    margin-bottom: 25px;
     font-family: 'Cormorant Garamond', serif;
     font-size: 1.5rem; 
 }
@@ -58,22 +58,23 @@ ul{
     border-bottom : 2px solid rgba(20,0,0,0.5);
     border-radius : 5px;
     box-shadow: 0px 0px 0px 1px rgba(0,0,0,0.2);
-    padding: 5px;
+    padding: 10px;
 }
 .active {
     border-bottom : 2px solid rgba(20,0,0,0.5);
     box-shadow: 0px 0px 0px 1px rgba(0,0,0,0.2);
     border-radius : 5px;
-    padding: 5px;
+    padding: 10px;
 }
 
 #kyoto-image {
     background: url(../images/su-san-lee-E_eWwM29wfU-unsplash\ \(1\).jpg) no-repeat center center;
     background-size: cover;
     height: 550px;
-    width: 100%;
+    width: 90%;
     padding: 100px;
     position: relative;
+    margin-bottom: 35px;
 
     animation-name: image-zoom;
     animation-duration: 3s;
@@ -116,3 +117,65 @@ transform: scale(1.08);
   #image-text-2:hover {
     transform: translate(-50px);
   }
+
+
+
+  #introduction {
+      height: 600px;
+  }
+  #city-about {
+      width: 75%;
+      margin:0 auto;
+      margin-bottom: 40px;
+      text-align: center;
+      font-size: large;
+      line-height: 1.6;
+
+  }
+  #cruise {
+      background: url(../images/cruiseky.jpg) no-repeat center center;
+      background-size:cover;
+      height: 450px;
+      width: 70%;
+      padding: 100px;
+      position: relative;
+      margin: 0 auto 50px auto;
+        
+      border: 3px solid #ff7990;
+
+      
+  }
+
+  #getting-around {
+      width: 60%;
+      
+      text-align: center;
+      font-size: large;
+      line-height: 1.6;
+      margin-top: 40px;
+      margin-left: 40px;
+
+  }
+  #midpage {
+  height: 600;
+  }
+
+  #subway {
+      background: url(../images/subwayky.jpg) no-repeat ;
+      height: 300px;
+      width: 300px;
+      padding: 30px;
+      float: right;
+     
+  }
+
+  #customs {
+    width: 60%;
+   
+    text-align: center;
+    font-size: large;
+    line-height: 1.6;
+    margin-top: 40px;
+    margin-right: 40px;
+  }
+
