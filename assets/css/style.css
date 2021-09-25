@@ -4,6 +4,7 @@
     margin: 0;
     padding: 0;
     border: none;
+    
 }
 body {
     font-family: 'Cormorant Garamond', serif;
@@ -91,12 +92,11 @@ transform: scale(1.08);
 }
 
 #image-text-1 {
-    z-index: 2;
     position: absolute;
     letter-spacing: 5px;
     color:black;
     font-size: 70px;
-    font-weight: bold;
+    font-weight: 100;
     left: 70px;
     top: 250px;
     transition: 1s ease-in-out;
@@ -185,3 +185,11 @@ transform: scale(1.08);
    border-radius: 5px;
   
 }
+
+#video-section {
+    text-align: center;
+    background-color: #fce4ec;
+    padding: 30px;
+}
+
+    
