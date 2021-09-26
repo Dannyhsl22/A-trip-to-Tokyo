@@ -203,6 +203,56 @@ transform: scale(1.08);
 div > iframe {
     border-radius: 10px;
 }
+
+#facts {
+    height: 700px;
+    margin-top: 100px;
+
+}
+
+#fact-heading {
+    font-size: 30px;
+    margin-left: 70px;
+    margin-bottom: 30px;
+    letter-spacing: 4px;
+}
+.fun-facts {
+    font-size: 20px;
+    line-height: 1.5;
+    text-align: center;
+}
+div > h2 {
+    font-size: 25px;
+    text-align: center;
+}
+
+#left-about {
+    margin-top: 10px;
+    margin-left: 50px;
+    width: 33%;
+    float: left;
+    background-color: rgba(4, 0, 255, 0.089);
+  
+}
+#right-about {
+    
+    margin-top: 400px;  
+    margin-right: 50px; 
+    width: 33%;
+    float: right;
+    background-color: rgba(255, 166, 0, 0.267);
+    
+}
+#center-about {
+    font-size: 20px;
+    margin-top: 250px;
+    margin-left: 510px;
+    width: 33%;
+    background-color: yellow;
+    
+} 
+
+
 #newsletter-heading {
     margin-bottom: 30px;
 }
@@ -241,6 +291,6 @@ input[type="submit"] {
     display: block;
     margin-top: 12px;
     padding: 8px 22px 8px;
-    border: 1px solid;
+    border: 5px solid;
     margin: 15px auto;
 }
