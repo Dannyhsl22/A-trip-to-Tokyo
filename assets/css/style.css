@@ -148,7 +148,7 @@ transform: scale(1.08);
   }
 
   #mid-section {
-   height: 1000px;  
+   height: 950px;  
  }
 
  .right-left-headings {
@@ -186,10 +186,21 @@ transform: scale(1.08);
   
 }
 
-#video-section {
+#video-section  {
     text-align: center;
-    background-color: #fce4ec;
+    background-image: linear-gradient(to right, #c048484f, #d12ba865, #002fff44);
     padding: 30px;
+    border: 1px solid grey;
 }
 
-    
+#video-heading {
+    font-size: 28px;
+    margin-left: 70px;
+    margin-bottom: 30px;
+    letter-spacing: 4px;
+}
+
+div > iframe {
+    border-radius: 10px;
+}
+
