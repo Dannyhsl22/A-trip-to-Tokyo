@@ -9,7 +9,7 @@
 body {
     font-family: 'Cormorant Garamond', serif;
     font-weight: 600;
-    color: grey;
+    background-color: rgba(229, 226, 226, 0.849);
     
 }
 
@@ -262,6 +262,7 @@ form {
     line-height:20px;
     text-align: center;
     padding: 50px;
+    border: 1px solid black;
 
 }
 input[type="text"] {
