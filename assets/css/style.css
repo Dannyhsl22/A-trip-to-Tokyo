@@ -12,7 +12,6 @@ body {
     color: grey;
 }
 
-/* logo */
 h1,h2 { 
      
     text-transform: uppercase;
@@ -72,7 +71,7 @@ ul{
     background: url(../images/su-san-lee-E_eWwM29wfU-unsplash\ \(1\).jpg) no-repeat center center;
     background-size: cover;
     height: 550px;
-    width: 90%;
+    width: 86.8%;
     padding: 100px;
     position: relative;
     margin-bottom: 35px;
@@ -294,3 +293,4 @@ input[type="submit"] {
     border: 5px solid;
     margin: 15px auto;
 }
+
