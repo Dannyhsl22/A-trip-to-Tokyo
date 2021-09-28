@@ -1,0 +1,315 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond&family=Open+Sans&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+    
+}
+body {
+    font-family: 'Cormorant Garamond', serif;
+    font-weight: 600;
+    background-color: rgba(229, 226, 226, 0.849);
+
+}
+ p {
+    font-size: 25px;
+}
+
+h1,h2 { 
+     
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    color: black;   
+}
+
+#logo {
+    font-size: 500%;
+    text-align: center;
+    margin: 50px auto 50px;  
+    letter-spacing: 20px;    
+}   
+header a {
+    text-decoration: none;
+}
+     
+#menu {
+    
+    width: 900px;
+    overflow: auto;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 25px;
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 1.7rem; 
+    font-weight: bolder;
+}
+
+#menu li{
+    display: inline-block;
+    padding: 20px;
+    
+}
+
+ul{
+  list-style-type: none;
+  overflow: auto;
+  
+}
+
+#menu a {
+    text-decoration: none;
+    color: inherit;
+    padding: 10px;
+}
+    
+#menu a:hover {
+   
+    background: #ff022c27;
+    border-bottom : 2px solid rgba(20,0,0,0.5);
+    border-radius : 5px;
+    box-shadow: 0px 0px 0px 1px rgba(0,0,0,0.3);
+}
+    
+.active {
+    border-bottom : 2px solid rgba(20,0,0,0.5);
+    box-shadow: 0px 0px 0px 1px rgba(0,0,0,0.3);
+    border-radius : 5px;
+}
+
+#kyoto-image {
+    background: url(../images/Kiyozumi\ Dera.jpg) no-repeat center center;
+    background-size: cover;
+    height: 750px;
+    width: auto;
+    padding: 100px;
+    position: relative;
+    margin-bottom: 35px;
+
+    animation-name: image-zoom;
+    animation-duration: 3s;
+    animation-fill-mode: backwards;
+}
+
+@keyframes image-zoom {
+    from {
+transform: scale(1.08);
+    }
+    to{
+        transform: scale(1);
+    }
+}
+
+#image-text-1 {
+    position: absolute;
+    letter-spacing: 5px;
+    color:black;
+    font-size: 70px;
+    font-weight: 100;
+    left: 70px;
+    top: 350px;
+    transition: 1s ease-in-out;
+  }
+  #image-text-1:hover {
+    transform: translate(50px);
+
+  }
+  #image-text-2 {  
+    position: absolute;
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    left: 130px;
+    top: 450px;
+    transition: 1s ease-in-out;
+  }
+  #image-text-2:hover {
+    transform: translate(-50px);
+  }
+
+
+
+  #introduction {
+      height: 100%;
+  }
+  #city-about {
+      width: 75%;
+      margin:0 auto;
+      margin-bottom: 40px;
+      text-align: center;
+      font-size: large;
+      line-height: 1.8;
+
+  }
+  span {
+      color: black;
+  }
+  #cruise {
+      background: url(../images/cruiseky.jpg) no-repeat center center;
+      background-size:cover;
+      height: 450px;
+      width: 73%;
+      padding: 100px;
+      position: relative;
+      margin: 0 auto 50px auto;      
+      border: 3px solid #ff7990;
+       
+  }
+
+  #mid-section {
+   height: auto;  
+ }
+
+ .right-left-headings {
+    text-align: center;
+    font-size: large;
+    line-height: 1.8;   
+ }
+
+ #getting-around {   
+    margin-left: 150px;
+    width: 61%;
+    padding-bottom: 100px;
+    
+ }
+  #subway {   
+   float: right; 
+   margin-right: 100px;
+   margin-top: 60px;
+   border-radius: 5px;
+  }
+
+  #customs { 
+    margin-left: 600px;
+    width: 61%;
+    padding-bottom: 100px;
+  }
+
+#bow {
+   float: left;
+   margin-left: 150px;
+   margin-top: 60px;
+   border-radius: 5px;
+  
+}
+
+#video-section  {
+    text-align: center;
+    background-image: linear-gradient(to right, #c048484f, #d12ba865, #002fff44);
+    padding: 30px;
+    border: 1px solid grey;
+}
+
+#video-heading {
+    font-size: 40px;
+    margin-left: 70px;
+    margin-bottom: 30px;
+    letter-spacing: 4px;
+}
+
+div > iframe {
+    border-radius: 10px;
+}
+
+#facts {
+    height: 700px;
+    margin-top: 100px;
+
+}
+
+#fact-heading {
+    font-size: 40px;
+    margin-left: 70px;
+    margin-bottom: 30px;
+    letter-spacing: 4px;
+    text-align: center;
+    font-weight: bolder;
+    border-bottom: 1px solid black;
+    padding-bottom:2px;
+}
+.fun-facts {
+    font-size: 20px;
+    line-height: 1.5;
+    text-align: center;
+}
+div > h2 {
+    font-size: 25px;
+    text-align: center;
+}
+
+#left-about {
+    margin-top: 40px;
+    margin-left: 50px;
+    width: 33%;
+    float: left;
+    background-color: rgba(4, 0, 255, 0.089);
+    padding: 30px 15px;
+  
+}
+#right-about {
+    
+    margin-top: 410px;  
+    margin-right: 30px; 
+    width: 33%;
+    float: right;
+    background-color: rgba(255, 166, 0, 0.267);
+    padding: 30px 15px;
+    
+}
+#center-about {
+    font-size: 20px;
+    margin: 275px auto;
+    width: 33%;
+    background-color: rgba(255, 255, 0, 0.295);
+    padding: 30px 15px;
+    
+} 
+
+
+#newsletter-heading {
+    margin-bottom: 30px;
+    color: wheat;
+}
+form {
+  color: wheat;
+    background-color: rgb(30,30,40);
+    margin-top: 150px;
+    line-height:20px;
+    text-align: center;
+    padding: 50px;
+    border: 1px solid black;
+
+}
+input[type="text"] {
+   color: black;
+    font-size: 20px;
+    text-transform: uppercase;
+    background:#ffffff;
+    font-weight: 600;
+    padding: 8px 22px 8px;
+    border: 1px solid;
+    margin: 8px;
+    border-radius: 10px;
+  }	
+  input[type="password"] {
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: 600;
+    padding: 8px 22px 8px;
+    border: 1px solid;
+    margin: 8px;
+    border-radius: 10px;
+  }	
+input[type="submit"] {
+    font-size: 20px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    background:#ffffff;
+    font-weight: 600;
+    display: block;
+    margin-top: 12px;
+    padding: 8px 22px 8px;
+    border: 5px solid;
+    margin: 15px auto;
+}
+[type="submit"]:hover { background:#CC4949; }
