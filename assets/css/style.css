@@ -176,6 +176,10 @@ input[type="submit"] {
 
 section h2 {
   margin-left: 50px;
+  font-size: xx-large;
+}
+section p{
+  font-size: x-large;
 }
 hr {
   border-top: 1px solid grey;
