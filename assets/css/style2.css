@@ -163,75 +163,28 @@ input[type="submit"] {
 }
 
 
-div p {
-  padding-top: 75px;
-  font-size: 30px;
-  text-align: center;
-  
+section h2 {
+  margin-left: 50px;
+}
+hr {
+  border-top: 1px solid grey;
+  width: 100%;
+  margin: 5px 0;
 }
 
-.img-list {
-  margin:0 auto;
-  border: 1px solid black;
-  padding: 50px;
+table {
+  padding-bottom: 30px;
 }
 
-.img-list ol, .img-list ul {
-  list-style:none;
-  
+#places {
+  height: 900px;
 }
-
-.img-list-gutter {
-  padding:0;
-  border: 2px solid black;
-}
-
-.img-list-item {
-  
-  padding-bottom: 3em;
-  
-}
-
-.img-list-text {
-  padding: 20px;
-  font-size: 30px;
-}
-
-@media (min-width:600px) {
-
-  .image-list-gutter {
-    display:table;
-  }
-
-  .img-list-image, .img-list-text {
-    display:table-cell;
-    vertical-align:top;
-  }
-
-  .img-list-text {
-    padding: 0 0 0 38px;
-  }
-
-  .img-list-image {
-    min-width:280px;
-  }
-
-  .img-list-src {
-    width:100%;
-    max-width:356px;
-  }
+#left-places {
+  float: left;
 
 }
 
-@media (min-width:764px) {
-
-  .img-list-text {
-    padding: 0 0 0 48px;
-  }
-
-  .img-list-image {
-    min-width:356px;
-    max-width:356px;
-  }
+#right-places {
+  float: right;
 
 }
