@@ -271,20 +271,21 @@ div > h2 {
     margin-bottom: 30px;
     color: wheat;
 }
+
 form {
-  color: wheat;
+    
+    color: wheat;
     background-color: rgb(30,30,40);
-    margin-top: 150px;
-    line-height:20px;
+    margin-top: 100px;
+    line-height: 20px;
     text-align: center;
     padding: 50px;
     border: 1px solid black;
 
 }
 input[type="text"] {
-   color: black;
+    color: black;
     font-size: 20px;
-    text-transform: uppercase;
     background:#ffffff;
     font-weight: 600;
     padding: 8px 22px 8px;
@@ -292,15 +293,7 @@ input[type="text"] {
     margin: 8px;
     border-radius: 10px;
   }	
-  input[type="password"] {
-    font-size: 20px;
-    text-transform: uppercase;
-    font-weight: 600;
-    padding: 8px 22px 8px;
-    border: 1px solid;
-    margin: 8px;
-    border-radius: 10px;
-  }	
+
 input[type="submit"] {
     font-size: 20px;
     text-transform: uppercase;
@@ -313,4 +306,27 @@ input[type="submit"] {
     border: 5px solid;
     margin: 15px auto;
 }
-[type="submit"]:hover { background:#CC4949; }
+
+[type="submit"]:hover { 
+    background:#CC4949;
+ }
+
+footer{
+    height: 400px;
+}
+
+.social-networks{
+    text-align: center;
+
+}
+
+.social-networks li{
+    display: inline;
+}
+
+.social-networks i{
+    font-size: 160%;
+    margin: 1%;
+    padding: 5%;
+    color: #3a3a3a;
+}
