@@ -346,6 +346,9 @@ div > h2 {
         height: 1200px;
         margin: 0 auto;
     }
+    #kyoto-image {
+        width: 80%;
+    }
     #city-about {
         padding: 30px 0;
         margin: 0;
@@ -428,7 +431,8 @@ div > h2 {
     }
 
     #kyoto-image {
-        margin-top: 150px;
+        width: 100%;
+        padding: 50px 10px;
     }
 
     #getting-around { 
@@ -475,4 +479,12 @@ div > h2 {
         display: inline;
         
     }
+    @media screen and (max-width: 600px) {
+        * {
+            width: auto;
+        }
+        #getting-around {
+            margin-top: 1000px;
+            }
+        }
 }
