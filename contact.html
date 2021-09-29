@@ -47,13 +47,14 @@
     <footer>
     
         <section id="newsletter">
-            <h2>Subscribe to our newsletter !</h2>
+            <h2 id="newsletter-heading">Subscribe to our newsletter !</h2>
+        <form>
             
-            <form>
-            <span>Email Address</span> 
-            <input type="text"/>  
-           
-            <input type="submit"/>
+            <label for="email"><span>Email Address</span></label>
+            <input class="text-input" type="email" id="email" name="email_address" required>
+            <br>
+            <input class="button" type="submit" value="Subscribe">
+    
         </form>
         </section>
         <div>

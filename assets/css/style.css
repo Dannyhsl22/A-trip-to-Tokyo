@@ -272,14 +272,13 @@ td p {
   font-size: 1.8rem;
   padding-left: 10px;
 }
-  
 
-#newsletter input[type="text"] {
+#newsletter input[type="email"] {
   color: black;
   font-size: 1.5rem;
   background:#ffffff;
   font-weight: 600;
-  padding: 20px 40px;
+  padding: 10px 20px;
   border: 5px solid black;   
   border-radius: 10px;
 }	
@@ -302,7 +301,6 @@ td p {
 #newsletter [type="submit"]:hover { 
   background:#CC4949;
 }
-
 
 .social-networks{
   text-align: center;
