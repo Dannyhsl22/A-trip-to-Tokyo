@@ -2,10 +2,6 @@
 
 * {
     box-sizing: border-box;
-    -webkit-box-sizing: border-box;
-    -ms-box-sizing: border-box;
-    -o-box-sizing: border-box;
-    -moz-box-sizing: border-box;
     margin: 0;
     padding: 0;
    }
@@ -25,9 +21,10 @@
     font-size: x-large;
 
 }
-section#photos p {
+#photos h2, p {
   font-size: xx-large;
   text-align: center;
+  line-height: 1.2;
 }
 p span {
   text-decoration: 1px overline;
@@ -141,6 +138,9 @@ hr {
   margin: 5px 0;
 }
 
+.gallery-image {
+   width: 300px;
+}
 
 table {
   padding-bottom: 30px;
@@ -149,6 +149,20 @@ table {
 #places {
   height: 1000px;
 }
+
+.six-places {
+  width: 640px;
+}
+
+td p {
+ width: 300px;
+}
+
+.placeholder {
+  width: 300px ;
+  height: 1px ;
+}
+
 #left-places {
   float: left;
   width: 45%;
@@ -244,7 +258,7 @@ table {
   padding: 70px;
   border: 1px solid beige;
 }
-#newsletter-heading {
+#newsletter h2 {
   margin-bottom: 30px;
   color: wheat;
   font-size: 2.5rem;

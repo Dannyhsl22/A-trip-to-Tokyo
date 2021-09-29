@@ -120,7 +120,7 @@ transform: scale(1.08);
     font-size: 30px;
     font-weight: bold;
     left: 130px;
-    top: 450px;
+    top: 455px;
     transition: 1s ease-in-out;
   }
   #image-text-2:hover {
@@ -277,12 +277,12 @@ div > h2 {
     border: 1px solid beige;
   }
 
-#newsletter-heading {
+  #newsletter h2 {
     margin-bottom: 30px;
     color: wheat;
     font-size: 2.5rem;
     text-align: center;
-}
+  }
 #newsletter form span {
     color: wheat;
     font-size: 1.8rem;
@@ -460,9 +460,6 @@ div > h2 {
     #video-section {
         width: 90%;
         float: left;
-    }
-    iframe {
-        width: 50%;
     }
 
     #center-about {
