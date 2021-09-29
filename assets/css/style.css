@@ -63,7 +63,7 @@ header a {
   
 }
 
-ul{
+#menu ul{
 list-style-type: none;
 overflow: auto;
 
@@ -89,21 +89,21 @@ overflow: auto;
   border-radius : 5px;
 }
    
-   #photos{
+
+#photos{
     max-width: 960px;
     width: 100%;
     margin: 0 auto;
    }
    
-   .gallery{
+.gallery{
     width: 100%;
-    margin: 0 auto;
-    
+    margin: 0 auto;   
     display: flex;
     flex-wrap: wrap;
    }
    
-   .image{
+.image{
     width: 45%;
     border: 1.5px solid #ccc;
     padding: 10px;
@@ -112,12 +112,12 @@ overflow: auto;
     background-color: #ecf0f1;
    }
    
-   .image img{
+.image img{
     max-width: 100%;
     margin: 0 auto;
    }
    
-   .image:hover{
+.image:hover{
     box-shadow: 0 1px 30px rgba(0,0,0,.3);
     transform: scale(1.05);
     border: none;
@@ -126,15 +126,13 @@ overflow: auto;
    }
    
   
- 
-
-section h2 {
+ #photos section h2 {
   margin-left: 50px;
   font-size: xx-large;
 
 }
 
-section p {
+#photos section p {
   font-size: x-large;
 }
 hr {
@@ -142,6 +140,7 @@ hr {
   width: 100%;
   margin: 5px 0;
 }
+
 
 table {
   padding-bottom: 30px;
@@ -154,29 +153,49 @@ table {
   float: left;
   width: 45%;
 }
+#left-places h2 {
+  font-size: 2rem;
+}
+#left-places p {
+  font-size: 1.5rem;
+}
 
 #right-places {
   float: right;
   width: 45%;
 }
+#right-places h2 {
+  font-size: 2rem;
+}
+#right-places p {
+  font-size: 1.5rem;
+}
 
 
-#contact-form {
+#contact {
   margin: 50px auto;
+  padding: 50px ;
   max-width: 420px;
+  background-color: rgba(1, 1, 48, 0.897);
+  border-radius: 10px;
+
+}
+#contact h2 {
+  color: wheat;
 }
 
 .feedback-input {
-  color:black;
+  color: black;
   background-color: white;
-  font-weight: 100;
-  font-size: 20px;
+  font-family: 'Cormorant Garamond', serif;
+  font-weight: bolder;
+  font-size: 25px;
   border-radius: 5px;
-  line-height: 22px;
-  border: 2px solid #CC6666;
+  line-height: 30px;
+  border: 2px solid yellow;
   transition: all 0.3s;
   padding: 10px;
-  margin: 30px auto;
+  margin: 20px auto;
   width: 100%;
   box-sizing: border-box;
   outline: 0;
@@ -188,14 +207,15 @@ table {
   
  }
 
-textarea {
+ #contact textarea {
   height: 200px;
-  line-height: 150%;
+  line-height: 100%;
   resize: vertical;
   
 }
 
-[type="submit"] {
+#contact [type="submit"] {
+  font-family: 'Cormorant Garamond', serif;
   font-size: 20px;
   text-transform: uppercase;
   letter-spacing: 1px;
@@ -205,60 +225,67 @@ textarea {
   margin-top: 12px;
   padding: 8px 22px 8px;
   border: 5px solid;
+  border-radius: 10px;
   margin: 15px auto;
 }
-[type="submit"]:hover { 
+
+#contact [type="submit"]:hover { 
   background:#CC4949; 
 }
 
 
+#newsletter {
+  margin: 0 auto;
+  height: 600px;
+  font-size: 2rem;
+  background-color: rgba(1, 1, 48, 0.897);
+  margin: 100px auto;
+  line-height: 150px;
+  text-align: center;
+  padding: 70px;
+  border: 1px solid beige;
+}
 #newsletter-heading {
   margin-bottom: 30px;
   color: wheat;
-}
-form {
-  color: wheat;
-  background-color: rgb(30,30,40);
-  margin-top: 150px;
-  line-height:20px;
+  font-size: 2.5rem;
   text-align: center;
-  padding: 50px;
-  border: 1px solid black;
-
 }
-input[type="text"] {
+#newsletter form span {
+  color: wheat;
+  font-size: 1.8rem;
+  padding-left: 10px;
+}
+  
+
+#newsletter input[type="text"] {
   color: black;
-  font-size: 20px;
+  font-size: 1.5rem;
   background:#ffffff;
   font-weight: 600;
-  padding: 8px 22px 8px;
-  border: 1px solid;
-  margin: 15px auto;
+  padding: 20px 40px;
+  border: 5px solid black;   
   border-radius: 10px;
 }	
 
-input[type="submit"] {
+
+#newsletter input[type="submit"] {
   font-size: 20px;
   text-transform: uppercase;
   letter-spacing: 1px;
   background:#ffffff;
   font-weight: 600;
   display: block;
-  margin-top: 12px;
-  padding: 10px 20px ;
-  border: 5px solid;
-  margin: 15px auto;
+  padding: 20px 50px;
+  border: 5px solid black;
+  border-radius: 10px;
+  margin: 0 0 0 45% ;
 }
 
-[type="submit"]:hover {
-   background:#CC4949;
-   }
-
-
-
-footer{
-  height: 150px;
+#newsletter [type="submit"]:hover { 
+  background:#CC4949;
 }
+
 
 .social-networks{
   text-align: center;
@@ -266,12 +293,16 @@ footer{
 }
 
 .social-networks li{
-  display: inline;
+  display: inline-block;
+ 
+  
 }
 
 .social-networks i{
-  font-size: 160%;
-  margin: 1%;
-  padding: 5%;
-  color: #3a3a3a;
+  font-size: 70px;
+  margin: 50px;
+  padding: 50px;
+  color: rgba(1, 1, 48, 0.897);
+  width: 100px;
+  
 }
