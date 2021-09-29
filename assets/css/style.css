@@ -147,7 +147,7 @@ table {
 }
 
 #places {
-  height: 900px;
+  height: 1000px;
 }
 #left-places {
   float: left;
@@ -235,12 +235,11 @@ table {
 
 
 #newsletter {
-  margin: 0 auto;
-  height: 600px;
+  height: 500px;
   font-size: 2rem;
   background-color: rgba(1, 1, 48, 0.897);
-  margin: 100px auto;
-  line-height: 150px;
+  margin: 50px auto;
+  line-height: 100px;
   text-align: center;
   padding: 70px;
   border: 1px solid beige;
@@ -270,6 +269,7 @@ table {
 
 
 #newsletter input[type="submit"] {
+  font-family: 'Cormorant Garamond', serif;
   font-size: 20px;
   text-transform: uppercase;
   letter-spacing: 1px;

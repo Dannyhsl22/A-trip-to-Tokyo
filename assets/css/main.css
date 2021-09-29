@@ -267,16 +267,16 @@ div > h2 {
 } 
 
 #newsletter {
-    margin: 0 auto;
-    height: 400px;
+    height: 350px;
     font-size: 2rem;
     background-color: rgba(1, 1, 48, 0.897);
-    margin: 100px auto;
-    line-height: 150px;
+    margin: 50px auto;
+    line-height: 100px;
     text-align: center;
     padding: 70px;
     border: 1px solid beige;
-}
+  }
+
 #newsletter-heading {
     margin-bottom: 30px;
     color: wheat;
@@ -338,4 +338,42 @@ div > h2 {
     color: rgba(1, 1, 48, 0.897);
     width: 100px;
     
+}
+
+@media screen and (max-width: 1200px) {
+    #introduction {
+        width: 65%;
+        height: 1200px;
+        margin: 0 auto;
+    }
+    #city-about {
+        padding: 30px 0;
+        margin: 0;
+    }
+    #cruise {
+        width: 100%;
+        padding: 50px 0px;
+        margin: 10px;
+    }
+    
+    #getting-around {
+        
+        padding: 220px 0 0 0;
+        margin-top: 600px;
+    }
+    #subway {
+        width: 33%;
+        float: right;
+        padding: 300px 25px;
+    }
+
+    #customs {
+        padding: 300px 0px;
+        margin: 0 auto;
+    }
+    #bow {
+        width: 33%;
+        float: left;
+        padding: 300px 25px;
+    }
 }
