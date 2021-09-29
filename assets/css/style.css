@@ -306,3 +306,52 @@ table {
   width: 100px;
   
 }
+@media screen and (max-width: 1200px) {
+  #places {
+    height: 200%;
+   
+    
+  }
+  #right-places, #left-places {
+
+    float: left;
+    width: 80%;
+    
+  }
+  #newsletter {
+    width: 100%;
+    float: left;
+    margin: 600px auto;
+}
+.social-networks {
+    display: inline-block;
+    margin: 100px auto;
+    width: 90%; 
+}
+}
+
+@media screen and (max-width: 900px) {
+  
+  #menu li{
+       
+    clear: left;
+    float: left;
+    margin-bottom: 5px;
+    line-height: 25px;
+}
+
+#right-places, #left-places {
+
+  float: left;
+  width: 80%;
+  margin-bottom: 100px;
+  
+}
+  
+  #newsletter {
+    clear: left;
+    width: 100%;
+    height: 700px;
+    margin: 100px auto;
+}
+}

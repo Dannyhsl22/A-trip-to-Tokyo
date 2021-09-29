@@ -174,7 +174,7 @@ transform: scale(1.08);
  }
   #subway {   
    float: right; 
-   margin-right: 100px;
+   margin-right: 150px;
    margin-top: 60px;
    border-radius: 5px;
   }
@@ -353,27 +353,129 @@ div > h2 {
     #cruise {
         width: 100%;
         padding: 50px 0px;
-        margin: 10px;
+        margin-right: 50px;
     }
     
     #getting-around {
         
-        padding: 220px 0 0 0;
+        padding: 350px 0 0 0;
         margin-top: 600px;
     }
     #subway {
         width: 33%;
         float: right;
-        padding: 300px 25px;
+        padding: 300px 25px 50px 25px;
     }
 
     #customs {
-        padding: 300px 0px;
+        padding: 150px 0px;
         margin: 0 auto;
     }
     #bow {
         width: 33%;
         float: left;
-        padding: 300px 25px;
+        padding: 100px 25px 0 25px;
+    }
+
+    .right-left-headings h1 {
+        padding-bottom: 20px;
+    }
+    #video-section {
+        width: 90%;
+        float: left;
+        margin-bottom: 100px;
+    }
+    iframe {
+        width: 70%;
+    }
+
+    #facts {       
+        width: 80%;      
+    }
+
+    #left-about {
+        float: left;
+        margin: 0;
+    }
+    #right-about {
+        float: right;
+        margin: 0 0 0 0;
+    }
+    #center-about {
+        clear: both;
+        padding-top: 100px;
+    }
+    #newsletter {
+        width: 80%;
+        float: left;
+        margin: 600px auto;
+    }
+    .social-networks {
+        display: inline-block;
+        margin: 100px auto;
+        width: 80%; 
+    }
+}
+
+
+@media screen and (max-width: 900px) {
+ #menu li{
+       
+        clear: left;
+        float: left;
+        margin-bottom: 5px;
+        line-height: 25px;
+    }
+
+    #kyoto-image {
+        margin-top: 150px;
+    }
+
+    #getting-around { 
+        padding: 900px 0 0 0;
+    }
+
+    #cruise {
+        float: left;
+        
+    }
+
+    #subway {
+        
+        width: 33%;
+        margin-right: 250px;
+        padding: 0 25px 50px 25px;
+    }
+    #customs {
+        padding: 150px 0px;
+        margin: 0 auto;
+    }
+    
+    #bow {
+        width: 33%;
+        margin: 0 250px;
+        padding: 100px 25px 40px 25px;
+    }
+
+    #video-section {
+        width: 90%;
+        float: left;
+    }
+    iframe {
+        width: 50%;
+    }
+
+    #center-about {
+        clear: both;
+        
+    }
+    #newsletter {
+        width: 500px;
+        height: 500px;
+        margin: 700px auto;
+    }
+.social-networks {
+        display: inline;
+        
     }
 }
