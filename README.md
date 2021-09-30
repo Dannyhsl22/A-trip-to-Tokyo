@@ -1,108 +1,174 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# A Trip to Kyoto/ User stories
 
-Welcome Dannyhsl22,
+"A Trip to Kyoto" is to promote travel and tourism opportunities throughout the city in a sustainable way, enrich the lives of both new visitors from abroad as well as the local english-speaking community by helping everyone experience the true essence of the city, and build the international image of Kyoto as one of the world’s leading cities of culture.
+![Responsive Mockup](https://github.com/Dannyhsl22/myFirstMilestoneProject/blob/main/media/a-trip-to-kyoto-mock-up.png)
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+### Existing Users
+        * Should be able to do all the above.
+        * Should be able to access social media platforms and engage with the community.
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **September 1, 2021**
+### Features 
+<hr>
 
-## Gitpod Reminders
+#### Existing Features
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+- __Navigation Bar__
 
-`python3 -m http.server`
+  - Featured on all three pages, the full responsive navigation bar includes links to the Logo, Home page, a gallery of historic sites, social and popular destinations, and a Contact form page. It is also identical in each page to allow for easy navigation.
+  - This section will allow the user to easily navigate from page to page across all devices without having to revert back to the previous page via the ‘back’ button. 
 
-A blue button should appear to click: _Make Public_,
+![Nav Bar] (nav image link)
+<hr>
 
-Another blue button should appear to click: _Open Browser_.
+__The Home page/image__
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+  - The landing includes a landscape photograph with text overlay to allow the user to see exactly which location this site would be applicable to. 
+  - This section introduces the user to the scenery with an eye catching animation to grab their attention.
 
-A blue button should appear to click: _Make Public_,
+![main Page](https://github.com/lucyrush/readme-template/blob/master/media/love_running_landing.png)
+<hr>
 
-Another blue button should appear to click: _Open Browser_.
+- __Introduction Section__
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+  - The Introduction section will allow the user to know about the city briefly and in a descriptive way.
+  - This user will be familiar with how go around the city using several ways of transport. 
+  - This user will be understand the difference when it comes to customs and etiquettes. 
+  - This user will be familiar with how go around the city using several ways of transport. 
 
-To log into the Heroku toolbelt CLI:
+![introduction](https://github.com/lucyrush/readme-template/blob/master/media/love_running_ethos.png)
+<hr>
 
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+- __Video Section__
+- The User will enjoy a tour around the most popular places in kyoto.
+![video](https://github.com/lucyrush/readme-template/blob/master/media/love_running_times.png)
+<hr>
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
+- __Fact Section__
+- The User will know more about the culture in small fun fact boxes.
+![facts](https://github.com/lucyrush/readme-template/blob/master/media/love_running_times.png)
+<hr>
 
-------
+- __Footer Section__
+- The footer section includes a newsletter subscription form where they can get latest updates about new siteseeing.
+- The footer section includes links to the relevant social media sites. The links will open to a new tab to allow easy navigation for the user. 
+  - The footer is valuable to the user as it encourages them to keep connected via social media
+![facts](https://github.com/lucyrush/readme-template/blob/master/media/love_running_times.png)
+<hr>
 
-## Release History
+- __Historic Sites Page__
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+  - The historic site page has a gallery that will provide the user with supporting images to see what the sites look like. 
+  - This section is valuable to the user as they will be able to easily check out the historic site name and its image. 
 
-**September 1 2021:** Remove `PGHOSTADDR` environment variable.
+![Gallery](https://github.com/lucyrush/readme-template/blob/master/media/love_running_gallery.png)
+<hr>
 
-**July 19 2021:** Remove `font_fix` script now that the terminal font issue is fixed.
+- __Things to Do Page__
 
-**July 2 2021:** Remove extensions that are not available in Open VSX.
+  - This page will allow the user to check out the latest and most visited areas and restaurants in Kyoto by other travellers. 
+   - The user will be able to know the sites through their name and description.
+  ![things to do](https://github.com/lucyrush/readme-template/blob/master/media/love_running_gallery.png)
+<hr>
 
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
+- __The Contact Us Page__
 
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
+  - This page will allow the user to get in touch with me for more inquiries. The user will be able specify in the comment box if they would like to know more about travelling to kyoto, historic sites, popular places or any other travel advice  related to Kyoto.The user will be asked to submit their Name and email address. 
+  ![contact us](https://github.com/lucyrush/readme-template/blob/master/media/love_running_gallery.png)
+<hr>
 
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
+  #### Features Left to Implement
 
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
+  - This page will add a map that has location marker on all recommended places to visit in Kyoto.
+  - The addition of an interactive calender to be able to check upcoming festivals and holidays in Japan.
+  - The addition of a blog section, to interact more actively with the community.
+<hr>
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
+  ###### Testing
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
+  ### Testing the Links
+ * Testing Internal Links of logo, home, historic sites, things to , and Contact.
+ * Checking the External Links such as Facebook, Instagram, Youtube and Twitter.
+ * Checking the video link.
+<hr>
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
+### Testing both Forms (newsletter and contact)
+ * Testing all fields are required.
+ * Testing the Submit Button
+<hr>
+ 
+### Validator Testing
+* Validating the HTML in the site
+    * Validation results - [W3C Validator](https://validator.w3.org/nu/)
+    * All pages where tested through the W3C html validator and passed except for the index page had an issue with the html validator, the video still works yet gives a warning about using iframe. Links to the results for each page are as follows;
+        * [index.html Validation](https://iainknox.github.io/yoga-republic/documentation/index-html-validation.png)
+        * [contact.html Validation](https://iainknox.github.io/yoga-republic/documentation/about-html-validation.png)
+        * [food.html Validation](https://iainknox.github.io/yoga-republic/documentation/our-yoga-html-validation.png)
+        * [sites.html Validation](https://iainknox.github.io/yoga-republic/documentation/contact-html-validation.png)
+        
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
+* Validating the CSS in the site
+    * Validation results - [CSS Validator](https://jigsaw.w3.org/css-validator/)
+     * All pages where tested through the W3C css validator and passed. Links to the results for each page are as follows;
+        * [A-Trip-to-Kyoto Validation](https://iainknox.github.io/yoga-republic/documentation/css-validation.png)
+ <hr>
+ ### Site fluidity 
+To test the flow of the site I forwarded it on to my spouse and work colleagues. After some proding I asked for peer review within my P1 slack channel. Grammarly was also used to test the various pages for any spelling and grammar errors.
+ <hr>
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
+### Browser Compatibility
+I tested the compatibility of my site first by by emulating different devices using the Dev tools in Chrome as well as using the variable responsive setting to check at different breakpoints. 
+* The various tests that were run were:
+    * checking to see if the all images and cards scaled and maintained aspect ratio as the display shrunk and grew.
+    * checking to see if responsive elements within my layout changed at the correct breakpoints, such as the navbar and cards.
+    * checking to see if my media queries behaved as expected with regards to cards displaying in columns or rows, navigation.  
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
+I then tested it on different browsers.
+<hr>
+### Lighthouse Scores
+*   The site was tested for both mobile and desktop scores via [Google Lighthouse](https://developers.google.com/web/tools/lighthouse) with multiple tests being conducted. 
+    * [index.html Lighthouse](https://iainknox.github.io/yoga-republic/documentation/index-html-lighthouse.png)
+    * [sites.html Lighthouse](https://iainknox.github.io/yoga-republic/documentation/about-html-lighthouse.png)
+    * [food.html Lighthouse](https://iainknox.github.io/yoga-republic/documentation/yoga-html-lighthouse.png)
+    * [contact.html Lighthouse](https://iainknox.github.io/yoga-republic/documentation/contact-html-lighthouse.png)
+* For the most part pages consistently scored 100 for accessibility and SEO and high 90's for performance and best practices.
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
+### AmIResponsive
 
-------
+* The site was tested with the amireponsive tool to determine how well it would look on various outputs. ![AmIReponsive](https://github.com/Dannyhsl22/myFirstMilestoneProject/blob/main/media/a-trip-to-kyoto-mock-up.png)
+    
+<hr>
 
-## FAQ about the uptime script
+## Deployment
+I have hosted my site on github pages, it can be accessed from the following url:
 
-**Why have you added this script?**
+https://dannyhsl22.github.io/myFirstMilestoneProject/index.html
 
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
+<hr>
 
-**How will this affect me?**
+## Credits
+* A big shout out to my mentor, **Akshat Garg**, for guding me through the process and offering assistance when neccesary to point me in the right direction.
 
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
+* The community on **Slack**, the contect on there is a really great tool to use when stuck on problems.
 
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
+### Content
+* Much of the information regarding Kyoto, its styles and origins where taken from various wikipedia articles [Kyoto Wiki](https://en.wikipedia.org/wiki/Kyoto) and [kwintessential](https://www.kwintessential.co.uk/resources/guide-to-japan-etiquette-customs-culture-business)
 
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
+* The color was inspired by running various searches through google with the keyword **Kyoto/japan** and then further refined with the help of sites such as [material](material.io).
 
-**So….?**
+* The fonts were acquired via [Google Fonts](https://fonts.google.com/)
+<hr>
 
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
+### Media
+* The images used throughout the site were sourced from an open source gallery in [Pexels](https://www.pexels.com/search/kyoto/) and [Unsplash](https://unsplash.com/s/photos/kyoto).
 
-**Can I opt out?**
+* The animation used on the landing page was inspired by the deisgn used in the **Love Running** project. It was modified to suit the needs of this site.
 
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
+* Icons used throughout the site for social media were sourced from [Font Awesome](https://fontawesome.com/v5.15/icons?d=gallery&p=2&q=social)
+<hr>
 
-```
-pkill uptime.sh
-rm .vscode/uptime.sh
-```
+### Other Resources
+* To better add to my understanding, markdown syntax was reseached from [Markdown Syntax](https://dotcms.com/docs/latest/markdown-syntax) to aid in compiling and styiling this README document.
 
-**Anything more?**
+* While most programming happened at unsocialable hours, when I really got stuck the web is an invaluable resource too, I did a fair amount of review on [W3 Schools](https://www.w3schools.com/) Concepts like as the **margins, grid and images** 
+<hr>
 
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
-
----
-
-Happy coding!
