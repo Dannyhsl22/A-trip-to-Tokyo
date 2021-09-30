@@ -118,8 +118,11 @@ __The Home page/image__
     * Validation results - [W3C Validator](https://validator.w3.org/nu/)
     * All pages where tested through the W3C html validator and passed except for the index page had an issue with the html validator, the video still works yet gives a warning about using iframe. Links to the results for each page are as follows;
         * [index.html Validation](https://github.com/Dannyhsl22/myFirstMilestoneProject/blob/main/media/index-html-validator.png)
+        <hr>
         * [contact.html Validation](https://github.com/Dannyhsl22/myFirstMilestoneProject/blob/main/media/contact-html-validator.png)
+        hr>
         * [food.html Validation](https://github.com/Dannyhsl22/myFirstMilestoneProject/blob/main/media/places-html-validator.png)
+        hr>
         * [sites.html Validation](https://github.com/Dannyhsl22/myFirstMilestoneProject/blob/main/media/sites-html-validator.png)
         
 
@@ -127,6 +130,7 @@ __The Home page/image__
     * Validation results - [CSS Validator](https://jigsaw.w3.org/css-validator/)
      * All pages where tested through the W3C css validator and passed. Links to the results for each page are as follows;
         * [A-Trip-to-Kyoto Validation](https://github.com/Dannyhsl22/myFirstMilestoneProject/blob/main/media/w3-main-css.png)
+       <hr>
         2nd stylesheet (https://github.com/Dannyhsl22/myFirstMilestoneProject/blob/main/media/w3-style-page.png)
  <hr>
  ### Site fluidity 
@@ -153,7 +157,7 @@ I then tested it on different browsers.
 
 ### AmIResponsive
 
-* The site was tested with the amireponsive tool to determine how well it would look on various outputs. ![AmIReponsive](https://github.com/Dannyhsl22/myFirstMilestoneProject/blob/main/media/a-trip-to-kyoto-mock-up.png)
+* The site was tested with the amireponsive tool to determine how well it would look on various outputs. [AmIReponsive](https://github.com/Dannyhsl22/myFirstMilestoneProject/blob/main/media/a-trip-to-kyoto-mock-up.png)
     
 <hr>
 
