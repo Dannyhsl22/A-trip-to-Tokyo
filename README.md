@@ -1,11 +1,26 @@
 # A Trip to Kyoto/ User stories
 
 "A Trip to Kyoto" is to promote travel and tourism opportunities throughout the city in a sustainable way, enrich the lives of both new visitors from abroad as well as the local english-speaking community by helping everyone experience the true essence of the city, and build the international image of Kyoto as one of the world’s leading cities of culture.
-![Responsive Mockup](https://github.com/Dannyhsl22/myFirstMilestoneProject/blob/main/media/a-trip-to-kyoto-mock-up.png)
+(https://github.com/Dannyhsl22/myFirstMilestoneProject/blob/main/media/a-trip-to-kyoto-mock-up.png)
 
 ### Existing Users
         * Should be able to do all the above.
         * Should be able to access social media platforms and engage with the community.
+
+## UX
+
+This website has been created as a one page front end website with scrolling behaviour for overview of travel information, historic and cultural sites and what a contact form.
+
+The website shows at first the logo and a landscape of Kyoto to atract the user and so they can expect to see and potentially acquire more on the site.
+
+
+The flow goes below to a section introducing and explaining more about Kyoto, on how to move around and knowing more about customs to engage visitors in a site that not encourages visiting Kyoto city but learning about the culture and history. 
+
+Then, the historic sites section appears with a selection of famous building images. This gallery displays in a modal with easy navigation, giving a smooth navigation feeling.
+
+The Contact Us section is a form with "required fields".
+
+There is a newsletter subscription to get latest updates by email, and over the in social media icons.
 
 ### Features 
 <hr>
@@ -17,7 +32,7 @@
   - Featured on all three pages, the full responsive navigation bar includes links to the Logo, Home page, a gallery of historic sites, social and popular destinations, and a Contact form page. It is also identical in each page to allow for easy navigation.
   - This section will allow the user to easily navigate from page to page across all devices without having to revert back to the previous page via the ‘back’ button. 
 
-![Nav Bar] (nav image link)
+ (https://github.com/Dannyhsl22/myFirstMilestoneProject/blob/main/media/nav-bar.png)
 <hr>
 
 __The Home page/image__
@@ -25,7 +40,7 @@ __The Home page/image__
   - The landing includes a landscape photograph with text overlay to allow the user to see exactly which location this site would be applicable to. 
   - This section introduces the user to the scenery with an eye catching animation to grab their attention.
 
-![main Page](https://github.com/lucyrush/readme-template/blob/master/media/love_running_landing.png)
+(https://github.com/Dannyhsl22/myFirstMilestoneProject/blob/main/media/homepage.png)
 <hr>
 
 - __Introduction Section__
@@ -35,24 +50,25 @@ __The Home page/image__
   - This user will be understand the difference when it comes to customs and etiquettes. 
   - This user will be familiar with how go around the city using several ways of transport. 
 
-![introduction](https://github.com/lucyrush/readme-template/blob/master/media/love_running_ethos.png)
+(https://github.com/Dannyhsl22/myFirstMilestoneProject/blob/main/media/about-city.png)
+(https://github.com/Dannyhsl22/myFirstMilestoneProject/blob/main/media/getting-around.png)
 <hr>
 
 - __Video Section__
 - The User will enjoy a tour around the most popular places in kyoto.
-![video](https://github.com/lucyrush/readme-template/blob/master/media/love_running_times.png)
+(https://github.com/Dannyhsl22/myFirstMilestoneProject/blob/main/media/video.png)
 <hr>
 
 - __Fact Section__
 - The User will know more about the culture in small fun fact boxes.
-![facts](https://github.com/lucyrush/readme-template/blob/master/media/love_running_times.png)
+(https://github.com/Dannyhsl22/myFirstMilestoneProject/blob/main/media/facts.png)
 <hr>
 
 - __Footer Section__
 - The footer section includes a newsletter subscription form where they can get latest updates about new siteseeing.
 - The footer section includes links to the relevant social media sites. The links will open to a new tab to allow easy navigation for the user. 
   - The footer is valuable to the user as it encourages them to keep connected via social media
-![facts](https://github.com/lucyrush/readme-template/blob/master/media/love_running_times.png)
+(https://github.com/Dannyhsl22/myFirstMilestoneProject/blob/main/media/newsletter.png)
 <hr>
 
 - __Historic Sites Page__
@@ -60,20 +76,21 @@ __The Home page/image__
   - The historic site page has a gallery that will provide the user with supporting images to see what the sites look like. 
   - This section is valuable to the user as they will be able to easily check out the historic site name and its image. 
 
-![Gallery](https://github.com/lucyrush/readme-template/blob/master/media/love_running_gallery.png)
+(https://github.com/Dannyhsl22/myFirstMilestoneProject/blob/main/media/gallery-part-1.png)
+(https://github.com/Dannyhsl22/myFirstMilestoneProject/blob/main/media/gallery-part-2.png)
 <hr>
 
 - __Things to Do Page__
 
   - This page will allow the user to check out the latest and most visited areas and restaurants in Kyoto by other travellers. 
    - The user will be able to know the sites through their name and description.
-  ![things to do](https://github.com/lucyrush/readme-template/blob/master/media/love_running_gallery.png)
+  (https://github.com/Dannyhsl22/myFirstMilestoneProject/blob/main/media/things-places.png)
 <hr>
 
 - __The Contact Us Page__
 
   - This page will allow the user to get in touch with me for more inquiries. The user will be able specify in the comment box if they would like to know more about travelling to kyoto, historic sites, popular places or any other travel advice  related to Kyoto.The user will be asked to submit their Name and email address. 
-  ![contact us](https://github.com/lucyrush/readme-template/blob/master/media/love_running_gallery.png)
+  (https://github.com/Dannyhsl22/myFirstMilestoneProject/blob/main/media/contact.png)
 <hr>
 
   #### Features Left to Implement
@@ -100,16 +117,17 @@ __The Home page/image__
 * Validating the HTML in the site
     * Validation results - [W3C Validator](https://validator.w3.org/nu/)
     * All pages where tested through the W3C html validator and passed except for the index page had an issue with the html validator, the video still works yet gives a warning about using iframe. Links to the results for each page are as follows;
-        * [index.html Validation](https://iainknox.github.io/yoga-republic/documentation/index-html-validation.png)
-        * [contact.html Validation](https://iainknox.github.io/yoga-republic/documentation/about-html-validation.png)
-        * [food.html Validation](https://iainknox.github.io/yoga-republic/documentation/our-yoga-html-validation.png)
-        * [sites.html Validation](https://iainknox.github.io/yoga-republic/documentation/contact-html-validation.png)
+        * [index.html Validation](https://github.com/Dannyhsl22/myFirstMilestoneProject/blob/main/media/index-html-validator.png)
+        * [contact.html Validation](https://github.com/Dannyhsl22/myFirstMilestoneProject/blob/main/media/contact-html-validator.png)
+        * [food.html Validation](https://github.com/Dannyhsl22/myFirstMilestoneProject/blob/main/media/places-html-validator.png)
+        * [sites.html Validation](https://github.com/Dannyhsl22/myFirstMilestoneProject/blob/main/media/sites-html-validator.png)
         
 
 * Validating the CSS in the site
     * Validation results - [CSS Validator](https://jigsaw.w3.org/css-validator/)
      * All pages where tested through the W3C css validator and passed. Links to the results for each page are as follows;
-        * [A-Trip-to-Kyoto Validation](https://iainknox.github.io/yoga-republic/documentation/css-validation.png)
+        * [A-Trip-to-Kyoto Validation](https://github.com/Dannyhsl22/myFirstMilestoneProject/blob/main/media/w3-main-css.png)
+        2nd stylesheet (https://github.com/Dannyhsl22/myFirstMilestoneProject/blob/main/media/w3-style-page.png)
  <hr>
  ### Site fluidity 
 To test the flow of the site I forwarded it on to my spouse and work colleagues. After some proding I asked for peer review within my P1 slack channel. Grammarly was also used to test the various pages for any spelling and grammar errors.
@@ -124,12 +142,13 @@ I tested the compatibility of my site first by by emulating different devices us
 
 I then tested it on different browsers.
 <hr>
+
 ### Lighthouse Scores
-*   The site was tested for both mobile and desktop scores via [Google Lighthouse](https://developers.google.com/web/tools/lighthouse) with multiple tests being conducted. 
-    * [index.html Lighthouse](https://iainknox.github.io/yoga-republic/documentation/index-html-lighthouse.png)
-    * [sites.html Lighthouse](https://iainknox.github.io/yoga-republic/documentation/about-html-lighthouse.png)
-    * [food.html Lighthouse](https://iainknox.github.io/yoga-republic/documentation/yoga-html-lighthouse.png)
-    * [contact.html Lighthouse](https://iainknox.github.io/yoga-republic/documentation/contact-html-lighthouse.png)
+*The site was tested for both mobile and desktop scores via [Google Lighthouse](https://developers.google.com/web/tools/lighthouse) with multiple tests being conducted. 
+    * [index.html Lighthouse](https://github.com/Dannyhsl22/myFirstMilestoneProject/blob/main/media/index.png)
+    * [sites.html Lighthouse](https://github.com/Dannyhsl22/myFirstMilestoneProject/blob/main/media/sites.png)
+    * [food.html Lighthouse](https://github.com/Dannyhsl22/myFirstMilestoneProject/blob/main/media/things-to-do.png)
+    * [contact.html Lighthouse](https://github.com/Dannyhsl22/myFirstMilestoneProject/blob/main/media/contact-us.png)
 * For the most part pages consistently scored 100 for accessibility and SEO and high 90's for performance and best practices.
 
 ### AmIResponsive
