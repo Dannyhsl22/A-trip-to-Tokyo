@@ -134,15 +134,15 @@ __The Home page/image__
         2nd stylesheet (https://github.com/Dannyhsl22/myFirstMilestoneProject/blob/main/media/w3-style-page.png)
  <hr>
  ### Site fluidity 
-To test the flow of the site I forwarded it on to my spouse and work colleagues. After some proding I asked for peer review within my P1 slack channel. Grammarly was also used to test the various pages for any spelling and grammar errors.
+To test the flow of the site I forwarded it on to my colleagues. Grammarly was also used to test the various pages for any spelling and grammar errors.
  <hr>
 
 ### Browser Compatibility
 I tested the compatibility of my site first by by emulating different devices using the Dev tools in Chrome as well as using the variable responsive setting to check at different breakpoints. 
 * The various tests that were run were:
     * checking to see if the all images and cards scaled and maintained aspect ratio as the display shrunk and grew.
-    * checking to see if responsive elements within my layout changed at the correct breakpoints, such as the navbar and cards.
-    * checking to see if my media queries behaved as expected with regards to cards displaying in columns or rows, navigation.  
+    * checking to see if responsive elements within my layout changed at the correct breakpoints, such as the navbar.
+    * checking to see if my media queries behaved as expected with regards to displaying in columns or rows, navigation.  
 
 I then tested it on different browsers.
 <hr>
@@ -169,9 +169,9 @@ https://dannyhsl22.github.io/myFirstMilestoneProject/index.html
 <hr>
 
 ## Credits
-* A big shout out to my mentor, **Akshat Garg**, for guding me through the process and offering assistance when neccesary to point me in the right direction.
+* A big shout out to my mentor, **Akshat Garg**, for guiding me through the process and offering assistance when neccesary to point me in the right direction.
 
-* The community on **Slack**, the contect on there is a really great tool to use when stuck on problems.
+* The community on **Slack**, the content on there is a really great tool to use when stuck on problems.
 
 ### Content
 * Much of the information regarding Kyoto, its styles and origins where taken from various wikipedia articles [Kyoto Wiki](https://en.wikipedia.org/wiki/Kyoto) and [kwintessential](https://www.kwintessential.co.uk/resources/guide-to-japan-etiquette-customs-culture-business)
