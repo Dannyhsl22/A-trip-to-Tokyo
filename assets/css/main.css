@@ -449,7 +449,7 @@ div > h2 {
     }
 
     #kyoto-image {
-        width: 100%;
+        width: 80%;
         
     }
     #image-text-1 {
@@ -469,18 +469,18 @@ div > h2 {
 
     #cruise {
         float: left;
-        margin-left: 40px;
+        margin-left: 20px;
     }
 
     #subway {
         
         width: 60%;
-        margin: 50px 100px;
+        
         
     }
     #customs {
         padding: 150px 0px;
-        margin: 0 auto;
+        margin: 0 120px;
     }
     
     #bow {
@@ -510,14 +510,14 @@ div > h2 {
         
     }
     #center-about {
-        position: absolute;
-        right: -150px;
-        margin-top: 600px;
+        
+        
+        margin: 600px 10px 10px 250px;
         
     }
     #newsletter {
         width: 100%;
-        height: 450px;
+        height: 400px;
         margin: 300px auto 100px auto;
         padding: 30px;
         

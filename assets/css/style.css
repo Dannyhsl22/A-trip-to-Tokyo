@@ -321,6 +321,32 @@ td p {
   width: 100px;
   
 }
+@media screen and (max-width: 1500px) {
+   
+
+   #left-places {
+    float: left;
+    margin: 100px 10px;
+    
+    
+  }
+  #right-places {
+    float: right;
+    margin: 65px 10px 0px 1px;
+    padding-left: 30px;
+  }
+  #newsletter {
+    width: 100%;
+    float: left;
+    margin: 50px auto;
+}
+.social-networks {
+    display: inline-block;
+    margin: 100px auto;
+    width: 90%; 
+}
+}
+
 @media screen and (max-width: 1200px) {
   #places {
     
