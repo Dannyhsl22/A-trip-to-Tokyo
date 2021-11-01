@@ -167,30 +167,31 @@ transform: scale(1.08);
  }
 
  #getting-around {   
-    margin-left: 150px;
+    margin-left: 100px;
     width: 61%;
     padding-bottom: 100px;
     
  }
   #subway {   
    float: right; 
-   margin-right: 150px;
+   padding-left: 50px;
+   margin-right: 100px;
    margin-top: 60px;
    border-radius: 5px;
   }
 
   #customs { 
-    margin-left: 600px;
+    padding-left: 500px;
     width: 61%;
     padding-bottom: 100px;
   }
 
 #bow {
    float: left;
-   margin-left: 150px;
+   margin-left: 100px;
    margin-top: 60px;
    border-radius: 5px;
-  
+  padding-right: 50px;
 }
 
 #video-section  {
