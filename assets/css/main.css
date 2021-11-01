@@ -36,7 +36,7 @@ header a {
 #menu {
     
     width: 900px;
-    overflow: auto;
+    overflow:hidden;
     margin: 0 auto;
     text-align: center;
     margin-bottom: 25px;
@@ -512,13 +512,13 @@ div > h2 {
     #center-about {
         
         
-        margin: 600px 10px 10px 250px;
+        margin: 700px 10px 10px 250px;
         
     }
     #newsletter {
-        width: 100%;
-        height: 400px;
-        margin: 300px auto 100px auto;
+        width:max-content;
+        height:400px;
+        margin: 400px auto 100px auto;
         padding: 30px;
         
     }
@@ -532,16 +532,107 @@ div > h2 {
         margin: 50px;
         padding: 25px;
         width: 10px;
+        
     }
 }
     @media screen and (max-width: 600px) {
-        * {
-            box-sizing: border-box;
-        }
-        #subway {
-        
-            width: 80%;
-            margin: 10px 10px 10px 1px;
+    
+        #menu li{
+            
+            
+            display: block;
             
         }
+    
+        #kyoto-image {
+            width: auto;
+            
+        }
+        #image-text-1 {
+            left: 50px;
+            top: 350px;
+        }
+        #image-text-2 {
+            left: 50px;
+            top: 460px;
+        }
+    
+        #getting-around { 
+            padding: 500px 0 0 0;
+            width: 70%;
+            margin-left: 100px;
+        }
+    
+        #cruise {
+            
+            margin: 0 auto;
+            padding-left: 120px;
+        }
+    
+        #subway {
+            width: 70%;
+            margin: 50px 20px 20px 10px;
+            padding: 30px;
+            
+        }
+        #customs {
+            padding: 150px 0px 30px 0px;
+            margin: 0 120px;
+        }
+        
+        #bow {
+            width: 70%;
+            margin: 50px ;
+            padding: 30px;
+        }
+    
+        #video-section {
+            padding: 30px;
+            width: 80%;
+            margin: 80px 0 120px 40px;
+        }
+        iframe {
+            width: 100%;
+        }
+    
+        #left-about {
+           float: left;
+           position: absolute;
+           margin: 0px 0 0 -100px;
+        }
+        #right-about {
+            float: right;
+            position: absolute;
+            right: 100px;
+            padding: 30px;
+            
+        }
+        #center-about {
+            padding: 50px;
+            
+            margin: 820px 10px 10px 100px;
+            
+        }
+        #newsletter {
+            width:auto;
+            height: 600px;
+            margin: 800px auto 100px auto;
+            padding: 30px;
+            
+        }
+        #newsletter-heading {
+            font-size: 10px;
+        }
+        .social-networks {
+            display: inline-block;
+            
+        }
+        .social-networks i{
+            font-size: 70px;
+            margin: 50px;
+            padding: 12px;
+            width: 10px;
+            
+        }
+        
     }

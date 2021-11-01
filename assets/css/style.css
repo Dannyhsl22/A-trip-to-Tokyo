@@ -361,18 +361,26 @@ td p {
   }
   #right-places {
     float: left;
-    margin: 1px 100px 10px 1px;
+    margin: -50px 100px 10px -10px;
   }
 
   #newsletter {
     width: 100%;
     float: left;
-    margin: 50px auto;
+    height: max-content;
 }
 .social-networks {
-    display: inline-block;
-    margin: 100px auto;
-    width: 90%; 
+    display:inline-block;
+    
+}
+.social-networks i{
+    font-size: 70px;
+    margin: 40px;
+    padding: 50px;
+    color: rgba(1, 1, 48, 0.897);
+    width: 50px;
+    
+    
 }
 }
 
