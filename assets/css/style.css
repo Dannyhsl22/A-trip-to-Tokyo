@@ -323,20 +323,25 @@ td p {
 }
 @media screen and (max-width: 1200px) {
   #places {
-    height: 200%;
+    
+    padding: 50px;
    
-    
   }
-  #right-places, #left-places {
-
+   #left-places {
     float: left;
-    width: 80%;
+    margin: 100px 10px;
+    
     
   }
+  #right-places {
+    float: left;
+    margin: 1px 100px 10px 1px;
+  }
+
   #newsletter {
     width: 100%;
     float: left;
-    margin: 600px auto;
+    margin: 50px auto;
 }
 .social-networks {
     display: inline-block;
@@ -349,10 +354,10 @@ td p {
   
   #menu li{
        
-    clear: left;
     float: left;
-    margin-bottom: 5px;
-    line-height: 25px;
+    padding: 5px;
+    margin: 6px;
+  
 }
 
 #right-places, #left-places {
@@ -363,10 +368,30 @@ td p {
   
 }
   
-  #newsletter {
-    clear: left;
-    width: 100%;
-    height: 700px;
-    margin: 100px auto;
+#newsletter {
+  width: 100%;
+  height: 550px;
+  margin: 200px auto 10px auto;
+  padding: 30px;
+  
+}
+
+.social-networks {
+  display: inline-block;
+  
+}
+.social-networks i{
+  font-size: 70px;
+  margin: 50px;
+  padding: 25px;
+  width: 10px;
 }
 }
+@media screen and (max-width: 600px) {
+  * {
+      width: auto;
+  }
+  #getting-around {
+      margin-top: 1000px;
+      }
+  }
