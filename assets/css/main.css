@@ -356,9 +356,9 @@ div > h2 {
         width: 100%;
     }
     #cruise {
-        width: 130%;
+        width: 140%;
         padding: 100px 0 ;
-        right: 100px;
+        left: -130px;
         
     }
     
@@ -370,20 +370,20 @@ div > h2 {
     }
     #subway {
         width: 60%;
-        padding: 50px ;
-        margin: 50px 150px 10px 100px;
+        padding-right: 180px;
+        padding-bottom: 50px;
 
     }
 
     #customs {
-        padding: 50px;
+        padding: 20px;
         margin-top: 600px;
         margin-left: 150px;
     }
     #bow {
         width: 60%;
-        padding: 50px ;
-        left: 20px;
+        padding: 50px 0 10px 140px ;
+        left: 120px;
     }
 
     .right-left-headings h1 {
@@ -414,7 +414,7 @@ div > h2 {
         padding: 20px 20px 80px 20px;
     }
     #center-about {
-       margin: 500px 350px 100px 290px;
+       margin: 500px 380px 100px 320px;
        border: 10px;
        padding: 20px;
     }
