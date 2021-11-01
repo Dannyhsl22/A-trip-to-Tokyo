@@ -612,13 +612,13 @@ div > h2 {
         #center-about {
             padding: 50px;
             
-            margin: 1000px 10px 100px 10px;
+            margin: 850px 10px 100px 50px;
             
         }
         #newsletter {
             width: auto;
             height: 600px;
-            margin: 850px 20px 100px 20px;
+            margin: 550px 20px 100px 20px;
             padding: 30px;
             
         }
@@ -653,7 +653,7 @@ div > h2 {
             font-weight: 600;
             display: block;
             padding: 20px 50px;
-            margin: 10px 10px 10px 80px ;
+            margin: 10px 10px 10px 90px ;
         }
         .social-networks {
             display: inline-block;
