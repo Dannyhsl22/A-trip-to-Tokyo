@@ -426,12 +426,13 @@ div > h2 {
     .social-networks {
         display:inline-block;
         
+        
     }
     .social-networks i{
         font-size: 70px;
         margin: 40px;
         padding: 50px;
-        color: rgba(1, 1, 48, 0.897);
+        
         width: 50px;
         
         
@@ -443,7 +444,7 @@ div > h2 {
  #menu li{
        
         float: left;
-        padding: 5px;
+        padding: 10px;
         margin: 6px;
       
     }
@@ -525,99 +526,133 @@ div > h2 {
 
     .social-networks {
         display: inline-block;
+        overflow: hidden;
         
     }
     .social-networks i{
         font-size: 70px;
         margin: 50px;
-        padding: 25px;
-        width: 10px;
+        padding: 50px;
+        width: 100px;
         
     }
 }
     @media screen and (max-width: 600px) {
+        #logo {
+            font-size: 240%;
+            text-align:center;
+            position: relative;
+            left: 300px;
+            letter-spacing: 10px;  
+
+        }  
+        
+        #menu {
     
+            width: 650px;
+            overflow:hidden;
+            
+            text-align: center;
+            position: relative;
+            left: 100px;
+            
+            font-size: 1.4rem; 
+           
+        }
+        
         #menu li{
-            
-            
-            display: block;
-            
+            display: inline-block;
+            padding: 5px;
         }
     
         #kyoto-image {
-            width: 120%;
+            width: 200%;
             
         }
         #image-text-1 {
+            font-size: 3.5rem; 
             left: 50px;
             top: 350px;
         }
         #image-text-2 {
+            font-size: 1.5rem;
             left: 50px;
             top: 460px;
         }
     
-        #getting-around { 
-            padding: 500px 0 0 0;
-            width: 70%;
-            margin-left: 100px;
+        #city-about {
+            width: 300%;
+            position: relative;
+            left: 60px;
         }
-    
+        
         #cruise {
-            
-            margin: 0 auto;
-            padding-left: 120px;
+            width: 330%;
+            position: relative;
+            left:0.2px;
         }
-    
+        
         #subway {
-            width: 70%;
-            margin: 50px 20px 20px 10px;
-            padding: 30px;
+            width: 150%;
+            position: relative;
+            left:620px;
             
         }
+        #getting-around { 
+            width: 200%;
+            position: relative;
+            left: 25px;
+        }
+
         #customs {
-            padding: 150px 0px 30px 0px;
-            margin: 0 120px;
+            width: 200%;
+            position: relative;
+            left: 25px;
         }
         
         #bow {
-            width: 70%;
-            margin: 50px ;
-            padding: 30px;
+            width: 150%;
+            position: relative;
+            left:55px;
         }
     
         #video-section {
-            padding: 30px;
-            width: 80%;
-            margin: 80px 0 120px 40px;
+            width: 226%;
+            height: auto;
+            position: relative;
+            left:4px;
         }
         iframe {
             width: 100%;
         }
         #facts {
-            height: 70em;
+            width: 200%;
+            height: 20em;
         }
         #left-about {
            float: left;
            position: absolute;
-           margin: 0 0 0 -100px;
+           margin-left: -80px;
+           width: 60%;
+           padding: 40px;
         }
         #right-about {
-            float: right;
-            position: absolute;
-            right: 100px;
-            padding: 30px;
+            
+            position: relative;
+            left: 20px;
+            padding: 40px 40px 100px 40px;
             
         }
         #center-about {
-            padding: 50px;
             
-            margin: 850px 10px 100px 50px;
-            
+            position: relative;
+            bottom: 600px;
+            left: -57px;
+            padding: 40px 25px 100px 25px;
         }
         #newsletter {
-            width: 100%;
-            height: 600px;
+            width: 238%;
+            height: 300px;
             margin: 550px 0 100px 0px;
             padding: 40px;
             
@@ -630,8 +665,8 @@ div > h2 {
           }
         #newsletter form span {
             line-height: 1;
-            font-size: 1.8rem;
-            padding-left: 10px;
+            font-size: 1.5rem;
+            padding-left: 20px;
         }
             
         
@@ -641,29 +676,12 @@ div > h2 {
             background:#ffffff;
             font-weight: 600;
             padding: 10px 20px;
-            border: 5px solid black;   
-            border-radius: 10px;
+            
           }	
         
         
-          #newsletter input[type="submit"] {
-            
-            font-size: 20px;
-            
-            font-weight: 600;
-            display: block;
-            padding: 20px 50px;
-            margin: 10px 10px 10px 90px ;
-        }
-        .social-networks {
-            display: inline-block;
-            
-        }
-        .social-networks i{
-            font-size: 70px;
-            margin: 50px;
-            padding: 5px;
-            width: 10px;
+          #newsletter input[type="submit"] { 
+            padding: 20px 40px;
             
         }
         
