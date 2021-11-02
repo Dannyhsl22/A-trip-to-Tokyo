@@ -542,7 +542,7 @@ div > h2 {
             font-size: 240%;
             text-align:center;
             position: relative;
-            left: 300px;
+            left: 350px;
             letter-spacing: 10px;  
 
         }  
@@ -554,7 +554,7 @@ div > h2 {
             
             text-align: center;
             position: relative;
-            left: 100px;
+            left: 260px;
             
             font-size: 1.4rem; 
            
@@ -587,15 +587,15 @@ div > h2 {
         }
         
         #cruise {
-            width: 330%;
+            width: 300%;
             position: relative;
-            left:0.2px;
+            left:0.3px;
         }
         
         #subway {
             width: 150%;
             position: relative;
-            left:800px;
+            left:750px;
             
         }
         #getting-around { 
@@ -613,11 +613,11 @@ div > h2 {
         #bow {
             width: 150%;
             position: relative;
-            left:155px;
+            left:95px;
         }
     
         #video-section {
-            width: 215%;
+            width: 200%;
             height: auto;
             position: relative;
             left:10px;
@@ -627,7 +627,7 @@ div > h2 {
         }
         #facts {
             width: 200%;
-            height: 20em;
+            height: 8em;
         }
         #left-about {
            float: left;
@@ -684,6 +684,17 @@ div > h2 {
             padding: 20px 40px;
             
         }
-        
+        .social-networks {
+            display: inline-block;
+            
+        }
+        .social-networks i{
+            font-size: 70px;
+            margin: 38px;
+            padding: 17px;
+            width: 10px;
+            position: relative;
+            
+        }
 
     }
