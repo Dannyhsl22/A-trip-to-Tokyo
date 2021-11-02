@@ -440,7 +440,8 @@ div > h2 {
 }
 
 
-@media screen and (max-width: 900px) {
+@media only screen and (max-width: 950px) and (min-width: 601px) {
+   
  #menu li{
        
         float: left;
@@ -461,38 +462,49 @@ div > h2 {
         left: 50px;
         top: 460px;
     }
-
+    #city-about {
+        
+        position: relative;
+        left: -70px;
+        width:140%;
+    }
     #getting-around { 
-        padding: 500px 0 0 0;
-        width: 70%;
-        margin-left: 100px;
+        padding: 400px 0 0 0;
+        position: relative;
+        left: -40px;
+        width:90%;
     }
 
     #cruise {
         float: left;
-        margin-left: 20px;
+        margin-left: 50px;
     }
 
     #subway {
         
         width: 60%;
-        
+        position: relative;
+        left: 150px;
         
     }
     #customs {
-        padding: 150px 0px;
-        margin: 0 120px;
+        
+        position: relative;
+        right: 90px ;
+        width:90%;
     }
     
     #bow {
         width: 60%;
-        margin: 50px 100px;
-        padding: 30px;
+        position: relative;
+        left: 0;
     }
 
     #video-section {
-        width: 80%;
-        margin: 80px 120px 120px 50px;
+        width: 100%;
+        position: relative;
+        left: -60px;
+        padding-bottom: 50px;
     }
     iframe {
         width: 100%;
@@ -500,44 +512,45 @@ div > h2 {
 
     #left-about {
        float: left;
-       position: absolute;
+       position: relative;
+       left:-80px;
        padding: 30px;
     }
     #right-about {
         float: right;
-        position: absolute;
-        right: 100px;
+        position: relative;
+        right: -50px;
         padding: 30px;
         
     }
     #center-about {
-        
-        
-        margin: 700px 10px 10px 250px;
-        
+        position: relative;
+        right: 80px;
+        bottom: 450px;
+        padding: 55px 20px;
     }
     #newsletter {
-        width:max-content;
+        width:100%;
         height:400px;
-        margin: 400px auto 100px auto;
-        padding: 30px;
+        
+        
         
     }
 
     .social-networks {
-        display: inline-block;
+        justify-content: center;
         overflow: hidden;
         
     }
     .social-networks i{
         font-size: 70px;
-        margin: 50px;
-        padding: 50px;
-        width: 100px;
+        display:flexbox;
+         width: 50px;
+         margin: 10px;
         
     }
 }
-    @media screen and (max-width: 600px) {
+@media only screen and (max-width: 600px) and (min-width: 300px) {
         #logo {
             font-size: 240%;
             text-align:center;
@@ -631,10 +644,10 @@ div > h2 {
         }
         #left-about {
            float: left;
-           position: absolute;
-           margin-left: -80px;
-           width: 60%;
-           padding: 40px;
+           position: relative;
+           
+           width: 30%;
+           padding: 40px 40px 70px 40px;
         }
         #right-about {
             
@@ -646,8 +659,8 @@ div > h2 {
         #center-about {
             
             position: relative;
-            bottom: 600px;
-            left: 65px;
+            bottom: 400px;
+            right: -10px;
             padding: 40px 25px 100px 25px;
         }
         #newsletter {
@@ -693,7 +706,6 @@ div > h2 {
             margin: 38px;
             padding: 17px;
             width: 10px;
-            position: relative;
             
         }
 
