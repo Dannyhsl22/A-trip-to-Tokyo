@@ -120,11 +120,6 @@ transform: scale(1.08);
     transform: translate(-50px);
   }
 
-
-
-  #introduction {
-      height: 100%;
-  }
   #city-about {
       
       width: 70%;
@@ -199,7 +194,7 @@ div > iframe {
 }
 
 #facts {
-    height: 1100px;
+    
     margin-top: 70px;
 
 }
@@ -220,7 +215,7 @@ div > iframe {
 #left-about { 
     background-color: rgba(4, 0, 255, 0.089);
     padding: 30px 120px;
-    margin: 25px auto;
+    margin: 80px auto 25px auto;
     width: 40%;
     text-align: center;
     display: block;
@@ -245,9 +240,9 @@ div > iframe {
     
 } 
 #newsletter {
-    height: 400px;
+    
     background-color: rgb(32, 23, 95);
-    margin: 300px auto 10px auto;
+    margin: 100px auto 10px auto;
 }
 
 .wrapper {
@@ -333,34 +328,66 @@ input::placeholder {
 }
 
 @media screen and (max-width: 1300px) and (min-width: 951px) {
-
+    #menu {
+        font-size: 35px;
+    }
     #kyoto-image {
         width: 82%;
     }
- 
-
+    #city-about p,h2 {
+        font-size: 35px;
+    }
+    #cruise {
+        
+    }
+    #getting-around h2 {
+        text-align: center;
+        padding: 20px;
+    }
+    #getting-around p,h2 {
+        font-size: 35px;
+    }
+    #customs p,h2 {
+        font-size: 35px;
+    }
     iframe {
-        width: 70%;
+        width: 80%;
         height: 450px;
     }
     #facts {
-        height: 1300px;
+        
+    }
+    #left-about p,h2 { 
+        font-size: 28px;
+        
+    }
+    #right-about p,h2 { 
+        font-size: 30px;
+        
+    }
+    #center-about p,h2 { 
+        font-size: 30px;
     }
   
+    
 }
 
 @media only screen and (max-width: 950px) and (min-width: 601px) {
     #logo {
+        
+        font-weight: 500;
         text-align: left;
     }
     #menu li{
-       
+        font-weight: 5000;
+        font-size: 25px;
         display: block;
         text-align: left;
+        
     }
 
     #kyoto-image {
-        width: 70%;
+       float: left;
         
     }
     #image-text-1 {
