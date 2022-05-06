@@ -40,7 +40,7 @@ header a {
     text-align: center;
     margin-bottom: 25px;
     font-family: 'Cormorant Garamond', serif;
-    font-size: 1.7rem; 
+    font-size: 35px; 
     font-weight: bolder;
 }
 
@@ -122,8 +122,7 @@ transform: scale(1.08);
 
   #city-about {
       
-      width: 70%;
-      margin: 0 auto;
+      margin: 0 100px;
       text-align: center;
       font-size: large;
       line-height: 1.8;
@@ -271,9 +270,10 @@ div > iframe {
 
 
 input {
+
     border: 1px solid rgb(220, 219, 235);
     border-radius: 4px;
-    font-size: 13px;
+    font-size: 20px;
     padding: 20px;
     color: #000;
     transition: all .15s ease-in;
@@ -374,9 +374,9 @@ input::placeholder {
 
 @media only screen and (max-width: 950px) and (min-width: 601px) {
     #logo {
-        
-        font-weight: 500;
-        text-align: left;
+        font-size: 70px;
+       
+        text-align: center;
     }
     #menu li{
         font-weight: 5000;
@@ -387,19 +387,24 @@ input::placeholder {
     }
 
     #kyoto-image {
-       float: left;
+    width: 77%;
+    height: 500px;
+    background-size: contain;
+    padding: 20px;
         
     }
     #image-text-1 {
         left: 50px;
-        top: 350px;
+        top: 220px;
+        font-size: 50px;
     }
     #image-text-2 {
         left: 50px;
-        top: 460px;
+        top: 300px;
+        font-size: larger;
     }
-    #city-about {
-     
+    #city-about p{
+     font-size: 100px;
     }
     #getting-around { 
         
@@ -428,8 +433,8 @@ input::placeholder {
         padding-bottom: 50px;
     }
     iframe {
-        width: 90%;
-        height: 300px;
+        width: 80%;
+        height: 350px;
     }
 
     #left-about {
@@ -446,72 +451,90 @@ input::placeholder {
         padding: 30px;
     }
     #newsletter {
-        width:100%;
-        height:400px;
-        
+     
         
     }
 
-    .social-networks {
-        justify-content: center;
-        overflow: hidden;
-        
+    .wrapper {
+        padding: 100px;
+        margin: 10px;
+        color: rgb(53, 114, 210);
+        font-size: 25px;
+        font-weight: bold;
+        letter-spacing: 6px;
+        text-transform: uppercase;
+        text-align: center;
     }
-    .social-networks i{
-        font-size: 70px;
-        display:flexbox;
-         width: 50px;
-         margin: 10px;
+    .wrapper h1{
+        color: #ff7990;
+        padding-bottom: 20px;
+        margin-bottom: 20px;
+    }
+    
+    .box {
         
+        padding: 40px;
+    }
+    
+    
+    input {
+    
+        font-size: 14px;
+        padding: 10px;
+    }
+    
+    input[type=email] {
+        width: 70%;
+    }
+    
+    input[type=submit] {
+        margin: 15px;
+    }
+    
+
+    .social-networks i{
+         font-size: 50px;
+         width: 50px;
+         margin: 10px;   
     }
 }
 @media only screen and (max-width: 600px) and (min-width: 300px) {
         #logo {
-            font-size: 240%;
+            font-size: 100px;
             text-align:center;
-            position: relative;
-            left: 350px;
             letter-spacing: 10px;  
-
+            width: 300%;
         }  
         
         #menu {
     
-            width: 650px;
-            overflow:hidden;
-            
-            text-align: center;
-            position: relative;
-            left: 260px;
-            
-            font-size: 1.4rem; 
-           
+            width: 300%;
+            padding: 30px;          
+            font-size: 35px;       
         }
         
         #menu li{
-            display: inline-block;
+          
             padding: 5px;
         }
     
         #kyoto-image {
-            width: 200%;
-            
+            width: 250%;
         }
         #image-text-1 {
-            font-size: 3.5rem; 
+            font-size: 70px; 
             left: 50px;
             top: 350px;
         }
         #image-text-2 {
-            font-size: 1.5rem;
+            font-size: 30px;
             left: 50px;
             top: 460px;
         }
     
-        #city-about {
-            width: 300%;
-            position: relative;
-            left: 60px;
+        #city-about p,h2{
+         
+            width: 1000px;
         }
         
         #cruise {
