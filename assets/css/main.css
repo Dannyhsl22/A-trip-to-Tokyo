@@ -73,12 +73,10 @@ header a {
 #kyoto-image {
     background: url(../images/Kiyozumi-Dera.jpg) no-repeat center center;
     background-size: cover;
-    height: 750px;
-    width: auto;
-    padding: 100px;
-    position: relative;
+    height: 600px;  
+    padding: 100px;  
     margin-bottom: 35px;
-
+    position: relative;
     animation-name: image-zoom;
     animation-duration: 3s;
     animation-fill-mode: backwards;
@@ -100,7 +98,7 @@ transform: scale(1.08);
     font-size: 70px;
     font-weight: 100;
     left: 70px;
-    top: 350px;
+    top: 230px;
     transition: 1s ease-in-out;
   }
   #image-text-1:hover {
@@ -113,7 +111,7 @@ transform: scale(1.08);
     font-size: 30px;
     font-weight: bold;
     left: 130px;
-    top: 455px;
+    top: 340px;
     transition: 1s ease-in-out;
   }
   #image-text-2:hover {
@@ -332,7 +330,13 @@ input::placeholder {
         font-size: 35px;
     }
     #kyoto-image {
-        width: 82%;
+       
+    }
+    #image-text-1 {
+        font-size: 60px;
+    }
+    #image-text-2 {
+        font-size: 30px;
     }
     #city-about p,h2 {
         font-size: 35px;
@@ -382,33 +386,24 @@ input::placeholder {
         font-weight: 5000;
         font-size: 25px;
         display: block;
-        text-align: left;
-        
+        text-align: left;    
     }
 
     #kyoto-image {
-    width: 77%;
-    height: 500px;
-    background-size: contain;
+    
+    
     padding: 20px;
         
     }
     #image-text-1 {
         left: 50px;
-        top: 220px;
+        top: 180px;
         font-size: 50px;
     }
     #image-text-2 {
         left: 50px;
-        top: 300px;
+        top: 270px;
         font-size: larger;
-    }
-    #city-about p{
-     font-size: 100px;
-    }
-    #getting-around { 
-        
-
     }
 
     #cruise {
@@ -507,20 +502,21 @@ input::placeholder {
         }  
         
         #menu {
-    
-            width: 300%;
-            padding: 30px;          
-            font-size: 35px;       
+            
+          
         }
         
-        #menu li{
-          
-            padding: 5px;
+        #menu li{  
+       
+        font-size: 30px;
+        display: block;
+        text-align: left;  
         }
     
         #kyoto-image {
-            width: 250%;
+            width: 230%;
         }
+
         #image-text-1 {
             font-size: 70px; 
             left: 50px;
@@ -532,21 +528,19 @@ input::placeholder {
             top: 460px;
         }
     
-        #city-about p,h2{
-         
-            width: 1000px;
+        #city-about {
+            width: 200%;
+           
         }
         
         #cruise {
-            width: 300%;
-            position: relative;
-            left:0.3px;
+           
+           
         }
         
         #subway {
-            width: 150%;
-            position: relative;
-            left:750px;
+            
+            margin: 0 auto;
             
         }
         #getting-around { 
@@ -581,25 +575,16 @@ input::placeholder {
             height: 8em;
         }
         #left-about {
-           float: left;
-           position: relative;
            
-           width: 30%;
-           padding: 40px 40px 70px 40px;
         }
         #right-about {
             
-            position: relative;
-            left: 20px;
-            padding: 40px 40px 70px 40px;
+          
             
         }
         #center-about {
             
-            position: relative;
-            bottom: 400px;
-            right: -10px;
-            padding: 40px 25px 100px 25px;
+           
         }
         #newsletter {
             width: 225%;
