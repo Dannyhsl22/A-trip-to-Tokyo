@@ -26,7 +26,7 @@ h1,h2 {
 #logo {
     font-size: 500%;
     text-align: center;
-    margin: 50px auto 50px;  
+    margin: 50px auto;  
     letter-spacing: 20px;    
 }   
 header a {
@@ -98,7 +98,7 @@ transform: scale(1.08);
     font-size: 70px;
     font-weight: 100;
     left: 70px;
-    top: 230px;
+    top: 270px;
     transition: 1s ease-in-out;
   }
   #image-text-1:hover {
@@ -111,7 +111,7 @@ transform: scale(1.08);
     font-size: 30px;
     font-weight: bold;
     left: 130px;
-    top: 340px;
+    top: 380px;
     transition: 1s ease-in-out;
   }
   #image-text-2:hover {
@@ -329,15 +329,7 @@ input::placeholder {
     #menu {
         font-size: 35px;
     }
-    #kyoto-image {
-       
-    }
-    #image-text-1 {
-        font-size: 60px;
-    }
-    #image-text-2 {
-        font-size: 30px;
-    }
+  
     #city-about p,h2 {
         font-size: 35px;
     }
@@ -379,31 +371,29 @@ input::placeholder {
 @media only screen and (max-width: 950px) and (min-width: 601px) {
     #logo {
         font-size: 70px;
-       
         text-align: center;
     }
-    #menu li{
-        font-weight: 5000;
-        font-size: 25px;
-        display: block;
-        text-align: left;    
+    #menu {     
+    font-size: 30px;
     }
 
+    #menu li{
+    display: block;
+    }
+   
     #kyoto-image {
-    
-    
     padding: 20px;
         
     }
     #image-text-1 {
         left: 50px;
-        top: 180px;
-        font-size: 50px;
+        top: 210px;
+        font-size: 60px;
     }
     #image-text-2 {
         left: 50px;
-        top: 270px;
-        font-size: larger;
+        top: 310px;
+        font-size: 25px;
     }
 
     #cruise {
@@ -493,143 +483,71 @@ input::placeholder {
          margin: 10px;   
     }
 }
-@media only screen and (max-width: 600px) and (min-width: 300px) {
-        #logo {
-            font-size: 100px;
-            text-align:center;
-            letter-spacing: 10px;  
-            width: 300%;
-        }  
-        
-        #menu {
-            
-          
-        }
-        
-        #menu li{  
-       
+@media only screen and (max-width: 600px) {
+    #logo {
+        font-size: 50px;
+    }
+    #menu li{
+        font-size: 25px;
+        display: inherit;
+    }
+    #image-text-1 {
         font-size: 30px;
+    }
+    #image-text-2 {
+        font-size: 10px;
+    }
+    iframe {
+        width: 90%;
+        height: 300px;
+        
+    }
+    #bow {
+        display: none;
+    }
+
+    #facts {
+    
+        margin-top: 50px;
+    
+    }
+    
+    #fact-heading {
+        font-size: 40px;
+        padding: 60px;
+        margin: 25px auto;
+        width: 70%;
+        text-align: center;
+        letter-spacing: 4px;
+        font-weight: bolder;
+        border-bottom: 1px solid black;
+        
+    }
+    
+    #left-about { 
+        background-color: rgba(4, 0, 255, 0.089);
+        padding: 30px 60px;
+        margin: 80px auto 25px auto;
+        width: 40%;
+        text-align: center;
         display: block;
-        text-align: left;  
-        }
-    
-        #kyoto-image {
-            width: 230%;
-        }
-
-        #image-text-1 {
-            font-size: 70px; 
-            left: 50px;
-            top: 350px;
-        }
-        #image-text-2 {
-            font-size: 30px;
-            left: 50px;
-            top: 460px;
-        }
-    
-        #city-about {
-            width: 200%;
-           
-        }
+    }
+    #right-about {
+        padding: 30px 60px;
+        margin: 25px auto;
+        width: 40%;
+        text-align: center;
+        display: block;  
+        background-color: rgba(255, 166, 0, 0.267);
         
-        #cruise {
-           
-           
-        }
+    }
+    #center-about {
+        padding: 30px 60px;
+        margin: 25px auto 40px auto;
+        width: 40%;
+        text-align: center;
+        display: block;  
+        background-color: rgba(255, 255, 0, 0.295);
         
-        #subway {
-            
-            margin: 0 auto;
-            
-        }
-        #getting-around { 
-            width: 200%;
-            position: relative;
-            left: 25px;
-        }
-
-        #customs {
-            width: 200%;
-            position: relative;
-            left: 25px;
-        }
-        
-        #bow {
-            width: 150%;
-            position: relative;
-            left:95px;
-        }
-    
-        #video-section {
-            width: 200%;
-            height: auto;
-            position: relative;
-            left:10px;
-        }
-        iframe {
-            width: 100%;
-        }
-        #facts {
-            width: 200%;
-            height: 8em;
-        }
-        #left-about {
-           
-        }
-        #right-about {
-            
-          
-            
-        }
-        #center-about {
-            
-           
-        }
-        #newsletter {
-            width: 225%;
-            height: 300px;
-            margin: 550px 0 100px 0px;
-            padding: 40px;
-            
-        }
-        #newsletter h2 {
-            
-            line-height: 2;
-            font-size: 2rem;
-            text-align: center;
-          }
-        #newsletter form span {
-            line-height: 1;
-            font-size: 1.5rem;
-            padding-left: 20px;
-        }
-            
-        
-        #newsletter input[type="email"] {
-            color: black;
-            font-size: 1.5rem;
-            background:#ffffff;
-            font-weight: 600;
-            padding: 10px 20px;
-            
-          }	
-        
-        
-          #newsletter input[type="submit"] { 
-            padding: 20px 40px;
-            
-        }
-        .social-networks {
-            display: inline-block;
-            
-        }
-        .social-networks i{
-            font-size: 70px;
-            margin: 38px;
-            padding: 17px;
-            width: 10px;
-            
-        }
-
+    } 
     }
