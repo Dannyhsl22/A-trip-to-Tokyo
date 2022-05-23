@@ -119,13 +119,19 @@ transform: scale(1.08);
   }
 
   #city-about {
+      margin: 0 50px;
       
-      margin: 0 100px;
-      text-align: center;
-      font-size: large;
-      line-height: 1.8;
-
   }
+
+  #city-about p,h2 {    
+    
+    text-align: center;
+    font-size: 30px;
+    line-height: 1.8;
+    
+
+}
+
   #city-about span {
       color: black;
   }
@@ -144,9 +150,9 @@ transform: scale(1.08);
  }
 
  #getting-around {   
-    margin: 100px;
+    margin: 0 50px;
     text-align: center;
-    font-size: large;
+    font-size: 30px;
     line-height: 1.8; 
  }
   #subway {   
@@ -158,16 +164,16 @@ transform: scale(1.08);
   }
 
   #customs { 
-    margin: 100px;
+    margin: 50px;
     text-align: center;
-    font-size: large;
+    font-size: 30px;
     line-height: 1.8; 
   }
 
 #bow {
    float: left;
    margin-left: 100px;
-   margin-top: 60px;
+   margin-top: 120px;
    border-radius: 5px;
   padding-right: 30px;
 }
@@ -177,23 +183,23 @@ transform: scale(1.08);
     background-image: linear-gradient(to right, #c048484f, #d12ba865, #002fff44);
     padding: 30px;
     border: 1px solid grey;
+    margin-top: 50px;
 }
 
-#video-heading {
+#video-section h2 {
     font-size: 40px;
-    margin-left: 70px;
     margin-bottom: 30px;
     letter-spacing: 4px;
 }
 
-div > iframe {
+iframe {
     border-radius: 10px;
-}
+    width: 80%;
+    height: 600px;
+    }
 
-#facts {
-    
+#facts { 
     margin-top: 70px;
-
 }
 
 #fact-heading {
@@ -382,59 +388,56 @@ input::placeholder {
     }
    
     #kyoto-image {
-    padding: 20px;
-        
+    padding: 20px;   
     }
+
     #image-text-1 {
-        left: 50px;
-        top: 210px;
-        font-size: 60px;
+    left: 50px;
+    top: 210px;
+    font-size: 60px;
     }
     #image-text-2 {
-        left: 50px;
-        top: 310px;
-        font-size: 25px;
+    left: 50px;
+    top: 310px;
+    font-size: 25px;
     }
 
     #cruise {
-        width: 100%;
-        height: 300px;
+    width: 100%;
+    height: 300px;
     }
 
     #subway {
-     display: none;
+    display: none;
     }
     #customs {
        
     }
     
     #bow {
-        display: none;
+    display: none;
     }
-
-    #video-section {
-        width: 90%;
-        
-        padding-bottom: 50px;
-    }
+       
     iframe {
-        width: 80%;
-        height: 350px;
+    width: 80%;
+    height: 350px;
     }
 
     #left-about {
-     width: 75%;
-       padding: 30px;
+    width: 75%;
+    padding: 30px;
     }
+
     #right-about {
-        width: 75%;
-        padding: 30px;
-        
+    width: 75%;
+    padding: 30px;   
     }
+
     #center-about {
-        width: 75%;
-        padding: 30px;
+    width: 75%;
+    padding: 30px;
     }
+
     #newsletter {
      
         
@@ -450,6 +453,7 @@ input::placeholder {
         text-transform: uppercase;
         text-align: center;
     }
+
     .wrapper h1{
         color: #ff7990;
         padding-bottom: 20px;
@@ -457,13 +461,10 @@ input::placeholder {
     }
     
     .box {
-        
         padding: 40px;
     }
     
-    
     input {
-    
         font-size: 14px;
         padding: 10px;
     }
@@ -476,78 +477,145 @@ input::placeholder {
         margin: 15px;
     }
     
-
     .social-networks i{
-         font-size: 50px;
-         width: 50px;
-         margin: 10px;   
+        font-size: 50px;
+        width: 50px;
+        margin: 10px;   
     }
 }
 @media only screen and (max-width: 600px) {
     #logo {
         font-size: 50px;
     }
+
     #menu li{
         font-size: 25px;
         display: inherit;
     }
+
+    #kyoto-image {
+       
+        height: 250px;
+    }
+
     #image-text-1 {
-        font-size: 30px;
+        font-size: 35px;
+        top:150px;
+        left: 40px;
     }
+
     #image-text-2 {
-        font-size: 10px;
+        font-size: 15px;
+        top:220px;
+        left: 40px;
     }
+
+    #city-about {
+        margin: 10px;
+    }
+
+    #city-about p {
+        font-size: 18px;
+    }
+
+    #cruise {
+        width: 100%;
+        height: 250px;
+    }
+
+    #getting-around {
+        margin: 20px 10px;
+    }
+
+    #getting-around p {
+        font-size: 18px;
+    }
+
+    #subway {
+        display: none;
+    }
+
     iframe {
-        width: 90%;
+        width: 95%;
         height: 300px;
         
     }
+
+    #customs {
+        margin: 40px 10px 20px 10px;
+    }
+
+    #customs p {
+        font-size: 18px;      
+    }
+
     #bow {
         display: none;
     }
 
+    #video-section {
+        margin: 60px 0;
+    }
+
+    #video-section h2 {
+        font-size: 25px;
+    }
+   
     #facts {
-    
-        margin-top: 50px;
-    
+        margin-top: 50px;  
     }
     
     #fact-heading {
         font-size: 40px;
-        padding: 60px;
-        margin: 25px auto;
-        width: 70%;
-        text-align: center;
-        letter-spacing: 4px;
-        font-weight: bolder;
-        border-bottom: 1px solid black;
-        
+        padding: 20px;   
     }
     
     #left-about { 
-        background-color: rgba(4, 0, 255, 0.089);
+    
         padding: 30px 60px;
         margin: 80px auto 25px auto;
-        width: 40%;
-        text-align: center;
-        display: block;
+        width: 60%;
+
     }
     #right-about {
         padding: 30px 60px;
         margin: 25px auto;
-        width: 40%;
-        text-align: center;
-        display: block;  
-        background-color: rgba(255, 166, 0, 0.267);
-        
+        width: 60%;
     }
+
     #center-about {
         padding: 30px 60px;
         margin: 25px auto 40px auto;
-        width: 40%;
-        text-align: center;
-        display: block;  
-        background-color: rgba(255, 255, 0, 0.295);
-        
+        width: 60%;
     } 
+    
+    .wrapper h1{
+        font-size: 25px;
+        padding-bottom: 20px;
+        margin-bottom: 20px;
+    }
+    
+    .box {
+        padding: 150px;
+        margin: 0 auto;
+        text-align: center;
+    }
+    
+    
+    input {
+        font-size: 20px;
+        padding: 10px 100px;
+        transition: all .15s ease-in;
+    }
+    
+    input[type=email] {
+        width: 30%;
+    }
+    
+    input[type=submit] {
+        
+        width: 30%;
+        font-weight: bold;
+        border: 1px solid transparent;
+    }
     }
