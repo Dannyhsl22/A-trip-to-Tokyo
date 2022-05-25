@@ -247,6 +247,173 @@ iframe {
     text-align: center;
 }
 
+/* page2 */
+#photos{
+    
+    max-width: 960px;
+    width: 100%;
+    margin: 0 auto;
+   }
+   
+.gallery{
+    width: 100%;
+    margin: 0 auto;   
+    display: flex;
+    flex-wrap: wrap;
+   }
+   
+.image{
+    width: 45%;
+    border: 1.5px solid #ccc;
+    padding: 10px;
+    margin: 10% 1.5%;
+    flex-grow: 1;
+    background-color: #ecf0f1;
+   }
+   
+.image img{
+    max-width: 100%;
+    margin: 0 auto;
+   }
+   
+.image:hover{
+    box-shadow: 0 1px 30px rgba(0,0,0,.3);
+    transform: scale(1.05);
+    border: none;
+    transition: box-shadow 0.2s ease, transform 0.2s ease;
+    z-index: 1;
+   }
+   
+  
+ #photos section h2 {
+  margin-left: 50px;
+  font-size: xx-large;
+
+}
+
+#photos section p {
+  font-size: x-large;
+}
+hr {
+  border-top: 1px solid grey;
+  width: 100%;
+  margin: 5px 0;
+}
+
+.gallery-image {
+   width: 300px;
+}
+/*page3*/
+
+table {
+  padding-bottom: 30px;
+}
+
+#places {
+  height: 1000px;
+}
+
+.six-places {
+  width: 700px;
+  padding: 20px;
+}
+
+td p {
+ width: 300px;
+}
+
+.placeholder {
+  width: 300px ;
+  height: 1px ;
+}
+
+#left-places {
+  float: left;
+  width: 45%;
+}
+#left-places h2 {
+  font-size: 2rem;
+}
+#left-places p {
+  font-size: 1.5rem;
+}
+
+#right-places {
+  float: right;
+  width: 45%;
+ 
+}
+#right-places h2 {
+  font-size: 2rem;
+  
+}
+#right-places p {
+  font-size: 1.5rem;
+}
+
+
+#contact {
+  margin: 50px auto;
+  padding: 50px ;
+  max-width: 420px;
+  background-color: rgba(1, 1, 48, 0.897);
+  border-radius: 10px;
+
+}
+#contact h2 {
+  color: wheat;
+}
+
+.feedback-input {
+  color: black;
+  background-color: white;
+  font-family: 'Cormorant Garamond', serif;
+  font-weight: bolder;
+  font-size: 25px;
+  border-radius: 5px;
+  line-height: 30px;
+  border: 2px solid yellow;
+  transition: all 0.3s;
+  padding: 10px;
+  margin: 20px auto;
+  width: 100%;
+  box-sizing: border-box;
+  outline: 0;
+  
+}
+
+.feedback-input:focus { 
+  border: 2px solid #CC4949;
+  
+ }
+
+ #contact textarea {
+  height: 200px;
+  line-height: 100%;
+  resize: vertical;
+  
+}
+
+#contact [type="submit"] {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 20px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  background:#ffffff;
+  font-weight: 600;
+  display: block;
+  margin-top: 12px;
+  padding: 8px 22px 8px;
+  border: 5px solid;
+  border-radius: 10px;
+  margin: 15px auto;
+}
+
+#contact [type="submit"]:hover { 
+  background:#CC4949; 
+}
+
+
 #newsletter {
     padding: 150px;
     margin: 0 auto;
@@ -338,9 +505,7 @@ input::placeholder {
     #city-about p,h2 {
         font-size: 35px;
     }
-    #cruise {
-        
-    }
+
     #getting-around h2 {
         text-align: center;
         padding: 20px;
@@ -406,9 +571,6 @@ input::placeholder {
 
     #subway {
     display: none;
-    }
-    #customs {
-       
     }
     
     #bow {
@@ -529,8 +691,8 @@ input::placeholder {
     }
 
     iframe {
-        width: 95%;
-        height: 300px;
+        width: 100%;
+        height: 210px;
         
     }
 
@@ -587,14 +749,11 @@ input::placeholder {
         width: 60%;
     } 
     
-    form {
-    
-    }
 
     #newsletter {
         margin: 50px 0;
-        height: 350px;
-      padding: 30px;
+        height: 400px;
+        padding: 20px 50px;
       
         
     }
@@ -611,19 +770,17 @@ input::placeholder {
         
     }
     
-    
-    input {
-            
-    }
-    
     input[type=email] {
         
+       font-size: 13px;
        margin-bottom: 20px;
+       text-align: left;
     }
     
-    input[type=submit] {
-        
-       
-        
+    .social-networks i{
+        font-size: 30px;
+        width: 20px;
+        margin: 10px;   
+        padding: 10px;
     }
     }
