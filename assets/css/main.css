@@ -202,7 +202,7 @@ iframe {
     margin-top: 70px;
 }
 
-#fact-heading {
+#facts > h2 {
     font-size: 40px;
     padding: 60px;
     margin: 25px auto;
@@ -242,23 +242,22 @@ iframe {
     background-color: rgba(255, 255, 0, 0.295);
     
 } 
-#newsletter {
+.fact-heading {
     
-    background-color: rgb(32, 23, 95);
-    margin: 100px auto 10px auto;
+    text-align: center;
 }
 
-.wrapper {
-    padding: 100px;
-    margin: 10px;
-    color: rgb(53, 114, 210);
+#newsletter {
+    padding: 150px;
+    margin: 0 auto;
+    background-color: rgb(32, 23, 95);
     font-size: 25px;
     font-weight: bold;
     letter-spacing: 6px;
     text-transform: uppercase;
     text-align: center;
 }
-.wrapper h1{
+#newsletter h1{
     color: #ff7990;
     padding-bottom: 20px;
     margin-bottom: 20px;
@@ -356,9 +355,7 @@ input::placeholder {
         width: 80%;
         height: 450px;
     }
-    #facts {
-        
-    }
+
     #left-about p,h2 { 
         font-size: 28px;
         
@@ -437,13 +434,9 @@ input::placeholder {
     width: 75%;
     padding: 30px;
     }
+    
 
     #newsletter {
-     
-        
-    }
-
-    .wrapper {
         padding: 100px;
         margin: 10px;
         color: rgb(53, 114, 210);
@@ -454,7 +447,7 @@ input::placeholder {
         text-align: center;
     }
 
-    .wrapper h1{
+    #newsletter h1{
         color: #ff7990;
         padding-bottom: 20px;
         margin-bottom: 20px;
@@ -465,8 +458,8 @@ input::placeholder {
     }
     
     input {
-        font-size: 14px;
-        padding: 10px;
+        font-size: 16px;
+        padding: 10px 30px;
     }
     
     input[type=email] {
@@ -565,11 +558,16 @@ input::placeholder {
         margin-top: 50px;  
     }
     
-    #fact-heading {
+    #facts > h2 {
         font-size: 40px;
         padding: 20px;   
     }
-    
+    .fact-heading {
+        border-bottom: 1px solid black;
+        text-align: center;
+        margin: 25px auto;
+    }
+
     #left-about { 
     
         padding: 30px 60px;
@@ -589,33 +587,43 @@ input::placeholder {
         width: 60%;
     } 
     
-    .wrapper h1{
+    form {
+    
+    }
+
+    #newsletter {
+        margin: 50px 0;
+        height: 350px;
+      padding: 30px;
+      
+        
+    }
+    #newsletter h1{
+        text-align: center;
         font-size: 25px;
         padding-bottom: 20px;
         margin-bottom: 20px;
+        
     }
     
     .box {
-        padding: 150px;
-        margin: 0 auto;
-        text-align: center;
+        padding: 30px;
+        
     }
     
     
     input {
-        font-size: 20px;
-        padding: 10px 100px;
-        transition: all .15s ease-in;
+            
     }
     
     input[type=email] {
-        width: 30%;
+        
+       margin-bottom: 20px;
     }
     
     input[type=submit] {
         
-        width: 30%;
-        font-weight: bold;
-        border: 1px solid transparent;
+       
+        
     }
     }
