@@ -248,12 +248,24 @@ iframe {
 }
 
 /* page2 */
-#photos{
-    
+#photos {
     max-width: 960px;
     width: 100%;
     margin: 0 auto;
+
    }
+   
+#photos > h2 {
+    letter-spacing: 50px;
+    margin: 150px auto 50px auto;
+    font-size: 40px;
+    border-bottom: 1px solid;
+}
+
+#photos p {
+   text-align: center;
+   font-size: 30px;
+}
    
 .gallery{
     width: 100%;
@@ -266,14 +278,21 @@ iframe {
     width: 45%;
     border: 1.5px solid #ccc;
     padding: 10px;
-    margin: 10% 1.5%;
-    flex-grow: 1;
+    margin: 7% 10%;
+    flex-grow: 2;
     background-color: #ecf0f1;
    }
    
-.image img{
+.image img {
     max-width: 100%;
     margin: 0 auto;
+   }
+
+.image > h2 {
+    
+    font-size: 30px;
+    border-bottom: 1px solid;
+    margin: 30px;
    }
    
 .image:hover{
@@ -284,26 +303,22 @@ iframe {
     z-index: 1;
    }
    
-  
+  /*page3*/
  #photos section h2 {
   margin-left: 50px;
   font-size: xx-large;
-
+  border-bottom: 1px solid;
 }
 
 #photos section p {
   font-size: x-large;
 }
-hr {
-  border-top: 1px solid grey;
-  width: 100%;
-  margin: 5px 0;
-}
 
 .gallery-image {
    width: 300px;
+   margin: 20px;
 }
-/*page3*/
+
 
 table {
   padding-bottom: 30px;
@@ -311,15 +326,18 @@ table {
 
 #places {
   height: 1000px;
+  margin: 250px 50px;
 }
 
 .six-places {
-  width: 700px;
+  width: 200px;
   padding: 20px;
+  margin: 20px;
 }
 
 td p {
  width: 300px;
+ margin: 20px;
 }
 
 .placeholder {
